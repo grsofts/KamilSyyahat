@@ -1,0 +1,32 @@
+<?php
+
+require_once 'conf/config.php';
+
+$l = $_GET['lang'] ?? $_COOKIE['lang'] ?? 'en';
+
+function GetTours(){
+    global $pdo;
+    global $l;
+    $sql = "SELECT t.id, t.slug, t.image, tt.title FROM tours t 
+            INNER JOIN tour_translations tt ON t.id = tt.tour_id 
+            WHERE tt.lang = :lang";
+
+    $stmt = $pdo->prepare($sql);
+    $stmt->execute(['lang' => $l]);
+    return $stmt->fetchAll();
+}
+
+function GetTourById($slug){
+    global $pdo;
+    global $l;
+
+    $sql = "SELECT t.id, t.slug, t.image, tt.title, tt.description, tt.duration FROM tours t 
+            INNER JOIN tour_translations tt ON t.id = tt.tour_id 
+            WHERE tt.lang = :lang and t.slug = :slug";
+
+    $stmt = $pdo->prepare($sql);
+    $stmt->execute(['lang' => $l, 'slug' => $slug]);
+    return $stmt->fetch();
+}
+
+?>

@@ -1,0 +1,7 @@
+# Включаем переопределение URL
+RewriteEngine On
+
+# Убираем index.php из URL (чистые ссылки)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?page=$1 [L,QSA]

@@ -1,0 +1,61 @@
+<?php 
+session_start();
+
+// Получаем параметр из URL через .htaccess
+$page = $_GET['page'] ?? 'home';
+
+// Убираем слэши, чтобы не было проблем
+$page = trim($page, '/');
+
+// Определяем путь к файлу
+$file = "pages/{$page}.php";
+
+$l = $_GET['lang'] ?? $_COOKIE['lang'] ?? 'en';
+require_once 'language/' . $l . '.php';
+?>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kamil syýahat</title>
+  <link rel="shortcut icon" type="image/png" href="assets/logoks.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/logoks.png">
+  <link rel="apple-touch-icon" href="assets/logoks.png">
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<script src="js/script.js" defer></script>
+	<link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic,500italic,600italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<!--[if IE 8]><link rel="stylesheet" type="text/css" href="css/ie8.css" /><![endif]-->
+	</head>
+	<body class="<?= $page === 'home' ? 'homepage' : 'contentpage'?>">
+
+<?php 
+  include 'header.php'; 
+?>
+
+    <?php
+      if (file_exists($file)) {
+        include $file;
+      } else {
+        http_response_code(404);
+        echo "<h2>Страница не найдена</h2>";
+      }
+    ?>
+
+  <?php include 'footer.php'; ?>
+  <script src="https://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/carouFredSel.js"></script>
+		<script src="js/jquery.stellar.min.js"></script>
+		<script src="js/ekkoLightbox.js"></script>
+		<script src="js/custom.js"></script>
+	</body>
+</html>
