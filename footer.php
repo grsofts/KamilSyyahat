@@ -1,3 +1,7 @@
+<?php 
+include_once 'conf/constants.php';
+?>
+
 <!-- Footer -->
 <div class="footer">
     <div class="container">
@@ -32,14 +36,14 @@
                     <a href="#" class="facebook"></a> <a href="#" class="pinterest"></a> <a href="#" class="twitter"></a>
                 </p>
                 <p class="c-details">
-                    <span>Mail</span> <a href="#" title="">info@petcare.com</a><br >
-                    <span>Tel</span> 0203 000 444
+                    <span>Mail:</span> <a href="#" title=""><?= $email ?></a><br >
+                    <span>Tel:</span> <?= $tel ?>  <br ><span></span> <?= $tel2 ?>
                 </p>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12 copyright">
-                <p>&copy; Copyright 2014. All rights reserved. Powered by <a href="https://grsofts.com" target="_blank" title="Powered by GRSofts">GRSofts</a></p>
+                <p>&copy; Copyright <?= $year ?> Kamil syyahat. All rights reserved. Powered by <a href="https://grsofts.com" target="_blank" title="Powered by GRSofts">GRSofts</a></p>
             </div>
         </div>
     </div>

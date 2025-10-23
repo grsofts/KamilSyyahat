@@ -23,9 +23,10 @@
                 <li class="<?= $page === 'home' ? 'active' : '' ?>">
                     <a href="home" title="Home"><span data-hover="<?= $lang['home'] ?>"><?= $lang['home'] ?></span></a>
                 </li>
-                <li class="<?= $page === 'prices' ? 'active' : '' ?>">
-                    <a href="prices" title="Prices"><span data-hover="<?= $lang['prices'] ?>"><?= $lang['prices'] ?></span></a>
+                <li class="<?= $page === 'tours' ? 'active' : '' ?>">
+                    <a href="tours" title="Tours"><span data-hover="<?= $lang['tours'] ?>"><?= $lang['tours'] ?></span></a>
                 </li>
+                
                 <li class="<?= $page === 'about' ? 'active' : '' ?>">
                     <a href="about" title="About us"><span data-hover="<?= $lang['about'] ?>"><?= $lang['about'] ?></span></a>
                 </li>
@@ -59,16 +60,19 @@
                 </li>
 
                 <li class="dropdown" style="cursor: pointer;">
-                     <a href="services.html" class="dropdown-toggle" data-toggle="dropdown"><span data-hover="<?= $lang['language'] ?>"><?= $lang['language'] ?></span> <b class="caret"></b></a>
+                     <a href="services.html" class="dropdown-toggle" data-toggle="dropdown"><span data-hover="<?= $lang['language'] ?>">
+                        <?= $l ==='en' ? '<img src="assets/us.png" height="24" alt="English" />' : ($l === 'ru' ? '<img src="assets/ru.png" height="24" alt="Russian" />' : '<img src="assets/tm.png" height="24" alt="Turkmen" />') ?>
+                        <?= $l ==='en' ? 'English' : ($l ==='ru' ? 'Русский' : 'Türkmençe') ?>
+                     </span> <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li class="active">
-                            <a href="?lang=en" title="English">EN</a>
+                        <li class="<?= $l === 'en' ? 'active' : '' ?>">
+                            <a href="?lang=en" title="English"><img src="assets/us.png" height="24" alt="English" /> English</a>
                         </li>
-                        <li>
-                            <a href="?lang=ru" title="Russian">RU</a>
+                        <li class="<?= $l === 'ru' ? 'active' : '' ?>">
+                            <a href="?lang=ru" title="Russian"><img src="assets/ru.png" height="24" alt="Russian" /> Русский</a>
                         </li>
-                        <li>
-                            <a href="?lang=tm" title="Turkmen">TM</a>
+                        <li class="<?= $l === 'tm' ? 'active' : '' ?>">
+                            <a href="?lang=tm" title="Turkmen"><img src="assets/tm.png" height="24" alt="Turkmen" /> Türkmençe</a>
                         </li>
                     </ul>
                 </li>

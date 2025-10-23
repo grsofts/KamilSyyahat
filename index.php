@@ -1,17 +1,16 @@
 <?php 
 session_start();
 
-// Получаем параметр из URL через .htaccess
 $page = $_GET['page'] ?? 'home';
 
-// Убираем слэши, чтобы не было проблем
 $page = trim($page, '/');
 
-// Определяем путь к файлу
 $file = "pages/{$page}.php";
 
 $l = $_GET['lang'] ?? $_COOKIE['lang'] ?? 'en';
 require_once 'language/' . $l . '.php';
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

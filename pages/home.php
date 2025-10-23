@@ -13,15 +13,18 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-            <img src="images/travel1.jpg" alt="" />
+            <img src="images/slider1.jpg" alt="" />
             <div class="carousel-caption">
-                <h2>Lorem ipsum delor sit amet</h2>
-                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum.</p>
-                <form method="get" action="index.html">
+                <h2 style="font-weight:700"><?= $lang["slider_title1"] ?></h2>
+                <p style="color:var(--primary-blue)"><?= $lang["slider_text1"] ?></p>
+                <!-- <form method="get" action="index.html">
                     <button type="submit" class="btn btn-lg btn-default">Learn more</button>
-                    </form>
+                    </form> -->
             </div>
+
         </div>
+
+
         <div class="item">
             <img src="images/travel2.jpg" alt="" />
             <div class="carousel-caption">
@@ -60,56 +63,56 @@
     <div class="row">
         <div class="col-md-4 col3">
             <a href="services-single.html" title="Dog boarding kennels" class="roundal" id="kennel"></a>
-            <h3>Dog boarding kennels</h3>
-            <p>Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. Humanitatis per seacula quarta decima et quinta decima.</p>
+            <h3><?= $lang['ashgabat'] ?></h3>
+            <p class="truncate-2"><?= $lang['ashgabat_description'] ?></p>
             <form method="get" action="services-single.html">
-                <button type="submit" class="btn btn-default btn-green">Learn more</button>
+                <button type="submit" class="btn btn-default btn-green"><?= $lang['learn_more'] ?></button>
             </form>
         </div>
         <div class="col-md-4 col3">
             <a href="services-single.html" title="Doggy grooming" class="roundal" id="grooming"></a>
-            <h3>Doggy grooming</h3>
-            <p>Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. Humanitatis per seacula quarta decima et quinta decima.</p>
+            <h3><?= $lang['akhal'] ?></h3>
+            <p class="truncate-2"><?= $lang['akhal_description'] ?></p>
             <form method="get" action="services-single.html">
-                <button type="submit" class="btn btn-default btn-green">Learn more</button>
+                <button type="submit" class="btn btn-default btn-green"><?= $lang['learn_more'] ?></button>
             </form>
         </div>
         <div class="col-md-4 col3">
             <a href="services-single.html" title="Adoption centre" class="roundal" id="adoption"></a>
-            <h3>Adoption centre</h3>
-            <p>Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. Humanitatis per seacula quarta decima et quinta decima.</p>
-            <form method="get" action="services-single.html">
-                <button type="submit" class="btn btn-default btn-green">Learn more</button>
+            <h3><?= $lang['balkan'] ?></h3>
+            <p class="truncate-2"><?= $lang['balkan_description'] ?></p>
+             <form method="get" action="services-single.html">
+                <button type="submit" class="btn btn-default btn-green"><?= $lang['learn_more'] ?></button>
             </form>
         </div>
         <div class="col-md-4 col3">
             <a href="services-single.html" title="Dog walking" class="roundal" id="walking"></a>
-            <h3>Dog walking</h3>
-            <p>Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. Humanitatis per seacula quarta decima et quinta decima.</p>
-            <form method="get" action="services-single.html">
-                <button type="submit" class="btn btn-default btn-green">Learn more</button>
+            <h3><?= $lang['dashoguz'] ?></h3>
+            <p class="truncate-2"><?= $lang['dashoguz_description'] ?></p>
+             <form method="get" action="services-single.html">
+                <button type="submit" class="btn btn-default btn-green"><?= $lang['learn_more'] ?></button>
             </form>
         </div>
         <div class="col-md-4 col3">
             <a href="services-single.html" title="Care advice" class="roundal" id="advice"></a>
-            <h3>Care advice</h3>
-            <p>Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. Humanitatis per seacula quarta decima et quinta decima.</p>
-            <form method="get" action="services-single.html">
-                <button type="submit" class="btn btn-default btn-green">Learn more</button>
+            <h3><?= $lang['mary'] ?></h3>
+            <p class="truncate-2"><?= $lang['mary_description'] ?></p>
+             <form method="get" action="services-single.html">
+                <button type="submit" class="btn btn-default btn-green"><?= $lang['learn_more'] ?></button>
             </form>
         </div>
         <div class="col-md-4 col3">
             <a href="services-single.html" title="Puppy play" class="roundal" id="play"></a>
-            <h3>Puppy play</h3>
-            <p>Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. Humanitatis per seacula quarta decima et quinta decima.</p>
-            <form method="get" action="services-single.html">
-                <button type="submit" class="btn btn-default btn-green">Learn more</button>
+            <h3><?= $lang['lebap'] ?></h3>
+            <p class="truncate-2"><?= $lang['lebap_description'] ?></p>
+             <form method="get" action="services-single.html">
+                <button type="submit" class="btn btn-default btn-green"><?= $lang['learn_more'] ?></button>
             </form>
         </div>
     </div>
     <div class="row">
         <div class="col-md-12 centered">
-            <h3><span>Our happy doggy customers</span></h3>
+            <h3><span><?= $lang['our_tours'] ?> </span></h3>
             <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
         </div>
     </div>
