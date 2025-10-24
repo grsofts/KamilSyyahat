@@ -11,6 +11,19 @@ $lang = [
     'language' => 'Dil',
     'learn_more' => 'Giňişleýin',
     'about_us' => 'Biz hakynda',
+    'about_us_description' => 'Siziň kämil syýahatyňyz şu ýerde başlaýar! Biz diňe syýahatlary satmaýarys, ýadygärlikleri döredýäris. Resminamalary we myhmanhanalary saýlamak bilen    baglanyşykly aladalary unudyň. Diňe arzuwyňyzy aýdyp beriň, biz galan ähli zady öz üstümize alarys.',
+    'contact_us' => 'Biziň bilen habarlaşyň',
+    'contact_us_description' => 'Biziň bilen habarlaşmak aňsat!
+Soraglaryňyz, teklipleriňiz ýa-da hyzmatdaşlyk pikiriňiz barmy?
+Biz kömek etmäge taýýar.
+Telefon, e-poçta ýa-da aşakdaky aragatnaşyk formasy arkaly bize ýüz tutup bilersiňiz.
+Toparymyz iň gysga wagtda size jogap berer.',
+
+    //form
+    'your_name' => 'Siziň adyňyz',
+    'your_email' => 'Siziň e-poçtaňyz',
+    'your_message' => 'Siziň habaryňyz',
+    'send_message' => 'Habar iberiň',
 
     //slider
     'slider_title1' => 'Türkmenistany açyň',
@@ -34,7 +47,18 @@ $lang = [
     //our tours
     'our_tours' => 'Biziň syýahatlarymyz',
 
-    'footer_about' => "Biz bilen syýahat ediň! Biz ýatdan çykmajak taryhy döredýäris we size dünýäni açýarys! Täsirli sargytlardan dynç alyşlara çenli - hemmeler üçin syýahatlarymyz bar!"
+    //footer
+    'want_you_title' => 'Biziň bilen syýahat etmek isleýärsiňizmi?',
+    'want_you_subtitle' => 'Biz bütin dünýäde ýatdan çykmajak syýahatlary hödürleýäris.',   
+    'want_you_button' => 'Habarlaşmak',
+    'footer_about_title' => 'Biz hakynda',
+    'pages' => 'Sahypalar',
+    'footer_about' => "Biz bilen syýahat ediň! Biz ýatdan çykmajak taryhy döredýäris we size dünýäni açýarys! Täsirli sargytlardan dynç alyşlara çenli - hemmeler üçin syýahatlarymyz bar!",
+    'we_are_social' => "Biz sosial ulgamlarda",
+    'we_are_social_description' => "Biziň bilen aragatnaşykda boluň!
+Sosial ulgamlarda bizi yzarlap bilersiňiz ýa-da islendik wagtda habarlaşyp bilersiňiz — siziň ýolagçylyk meýilnamaňyzy gurmaga taýýar.",
+
+
     ];
 
 

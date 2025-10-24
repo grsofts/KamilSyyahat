@@ -65,49 +65,49 @@
             <a href="services-single.html" title="Dog boarding kennels" class="roundal" id="kennel"></a>
             <h3><?= $lang['ashgabat'] ?></h3>
             <p class="truncate-2"><?= $lang['ashgabat_description'] ?></p>
-            <form method="get" action="services-single.html">
+            <!-- <form method="get" action="services-single.html">
                 <button type="submit" class="btn btn-default btn-green"><?= $lang['learn_more'] ?></button>
-            </form>
+            </form> -->
         </div>
         <div class="col-md-4 col3">
             <a href="services-single.html" title="Doggy grooming" class="roundal" id="grooming"></a>
             <h3><?= $lang['akhal'] ?></h3>
             <p class="truncate-2"><?= $lang['akhal_description'] ?></p>
-            <form method="get" action="services-single.html">
+            <!-- <form method="get" action="services-single.html">
                 <button type="submit" class="btn btn-default btn-green"><?= $lang['learn_more'] ?></button>
-            </form>
+            </form> -->
         </div>
         <div class="col-md-4 col3">
             <a href="services-single.html" title="Adoption centre" class="roundal" id="adoption"></a>
             <h3><?= $lang['balkan'] ?></h3>
             <p class="truncate-2"><?= $lang['balkan_description'] ?></p>
-             <form method="get" action="services-single.html">
+             <!-- <form method="get" action="services-single.html">
                 <button type="submit" class="btn btn-default btn-green"><?= $lang['learn_more'] ?></button>
-            </form>
+            </form> -->
         </div>
         <div class="col-md-4 col3">
             <a href="services-single.html" title="Dog walking" class="roundal" id="walking"></a>
             <h3><?= $lang['dashoguz'] ?></h3>
             <p class="truncate-2"><?= $lang['dashoguz_description'] ?></p>
-             <form method="get" action="services-single.html">
+             <!-- <form method="get" action="services-single.html">
                 <button type="submit" class="btn btn-default btn-green"><?= $lang['learn_more'] ?></button>
-            </form>
+            </form> -->
         </div>
         <div class="col-md-4 col3">
             <a href="services-single.html" title="Care advice" class="roundal" id="advice"></a>
             <h3><?= $lang['mary'] ?></h3>
             <p class="truncate-2"><?= $lang['mary_description'] ?></p>
-             <form method="get" action="services-single.html">
+             <!-- <form method="get" action="services-single.html">
                 <button type="submit" class="btn btn-default btn-green"><?= $lang['learn_more'] ?></button>
-            </form>
+            </form> -->
         </div>
         <div class="col-md-4 col3">
             <a href="services-single.html" title="Puppy play" class="roundal" id="play"></a>
             <h3><?= $lang['lebap'] ?></h3>
             <p class="truncate-2"><?= $lang['lebap_description'] ?></p>
-             <form method="get" action="services-single.html">
+             <!-- <form method="get" action="services-single.html">
                 <button type="submit" class="btn btn-default btn-green"><?= $lang['learn_more'] ?></button>
-            </form>
+            </form> -->
         </div>
     </div>
     <div class="row">
@@ -271,20 +271,3 @@
     </div>
 </div>
 <!-- Adoption end -->
-<!-- Purchase -->
-<div class="purchase">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-9">
-                <p><strong>Pet</strong>Care is a totally awesome unique &amp; responsive HTML template<br />
-                <span>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</span></p>
-            </div>
-            <div class="col-md-3 purchase-button">
-                <form method="get" action="index.html">
-                    <button type="submit" class="btn btn-default btn-green">Purchase theme</button>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Purchase end -->

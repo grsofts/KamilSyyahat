@@ -26,8 +26,20 @@ require_once 'language/' . $l . '.php';
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<script src="js/script.js" defer></script>
-	<link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic,500italic,600italic,700italic' rel='stylesheet' type='text/css'>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+
+	<!-- <link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic,500italic,600italic,700italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Nunito+Sans:wght@300;400;600&display=swap&subset=latin-ext,cyrillic" rel="stylesheet">
+
+	<link href="js/fancybox.css" rel="stylesheet">
+	<script src="js/fancybox.umd.js" defer></script>
+
+
+
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -35,19 +47,17 @@ require_once 'language/' . $l . '.php';
 	<!--[if IE 8]><link rel="stylesheet" type="text/css" href="css/ie8.css" /><![endif]-->
 	</head>
 	<body class="<?= $page === 'home' ? 'homepage' : 'contentpage'?>">
-
 <?php 
   include 'header.php'; 
-?>
 
-    <?php
-      if (file_exists($file)) {
-        include $file;
-      } else {
-        http_response_code(404);
-        echo "<h2>Страница не найдена</h2>";
-      }
-    ?>
+	if (file_exists($file)) {
+		include $file;
+	} else {
+		http_response_code(404);
+		echo "<h2>Страница не найдена</h2>";
+	}
+?>
+<button id="scrollTopBtn" title="Наверх">↑</button>
 
   <?php include 'footer.php'; ?>
   <script src="https://code.jquery.com/jquery.js"></script>

@@ -8,8 +8,8 @@ include_once 'conf/constants.php';
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 centered">
-					<h3><span>Contact us</span></h3>
-					<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+					<h3><span><?= $lang['contact_us'] ?></span></h3>
+					<p><?= $lang['contact_us_description'] ?></p>
 				</div>
 			</div>
 		</div>
@@ -23,34 +23,58 @@ include_once 'conf/constants.php';
 				<div class="col-md-9">
 					<form role="form" id="contact_form">
 						<div class="form-group">
-							<label for="InputName">Your name</label>
-							<input type="text" class="form-control" id="InputName" placeholder="Your name">
+							<label for="InputName"><?= $lang['your_name'] ?></label>
+							<input type="text" class="form-control" id="InputName" placeholder="<?= $lang['your_name'] ?>">
 						</div>
 						<div class="form-group">
-							<label for="InputEmail">Your email</label>
-							<input type="email" class="form-control" id="InputEmail" placeholder="Your email">
+							<label for="InputEmail"><?= $lang['your_email'] ?></label>
+							<input type="email" class="form-control" id="InputEmail" placeholder="<?= $lang['your_email'] ?>">
 						</div>
 						<div class="form-group">
-							<label for="InputMesaagel">Your messsage</label>
-							<textarea class="form-control" id="Message" placeholder="Your message" rows="8"></textarea>
+							<label for="InputMessage"><?= $lang['your_message'] ?></label>
+							<textarea class="form-control" id="Message" placeholder="<?= $lang['your_message'] ?>" rows="8"></textarea>
 						</div>
-						<button type="submit" class="btn btn-default btn-green">Send message</button>
+
+						
+  						<div class="g-recaptcha" data-sitekey="6LfkmfUrAAAAAD1cY0NCjGROUWYfRiQaVg24Hbc7"></div>
+						<button type="submit" class="btn btn-default btn-green"><?= $lang['send_message'] ?></button>
 					</form>
 				</div>
 				<div class="col-md-3">
-					<ul class="contact-info">
-						<li class="telephone">
+					<ul class="contact-info" style="width:fit-content">
+						<li style="display: flex; align-items: center; gap: 10px;">
+							<i class="bi bi-telephone-fill text-success" style="font-size: 2em;"></i>
 							<?= $tel ?>
 							<?= $tel2 ?>
 						</li>
-						<li class="address">
-							123 High St, Essex, UK
+						<li  style="display: flex; align-items: center; gap: 10px;">
+							<i class="bi bi-geo-alt-fill text-primary" style="font-size: 2em;"></i>							
+							<?= $address ?>
 						</li>
-						<li class="mail">
+						<li class="" style="display: flex; align-items: center; gap: 10px;">
+							<i class="bi bi-facebook text-primary" style="font-size: 2em;"></i> <?= $facebook ?> <br>
+						</li>
+						<li  style="display: flex; align-items: center; gap: 10px;">
+							<i class="bi bi-envelope-fill text-warning" style="font-size: 2em;"></i>
 							<?= $email ?>
 						</li>
+
+						<li  style="display: flex; align-items: center; gap: 10px;">
+							<i class="bi bi-instagram text-danger" style="font-size: 2em;"></i>
+							<?= $instagram ?>
+							<?= $instagram2 ?>
+						</li>
+
+						<li  style="display: flex; align-items: center; gap: 10px;">
+							<i class="bi bi-tiktok text-danger" style="font-size: 2em;"></i>
+							<?= $tiktok ?>
+						</li>
+						
 					</ul>
 				</div>
 			</div>
 		</div>
 		<!-- Content end -->    
+
+
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>

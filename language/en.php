@@ -11,6 +11,18 @@ $lang = [
     'language' => 'Language',
     'learn_more' => 'Learn more',
     'about_us' => 'About us',
+    'about_us_description' => 'Your perfect journey starts here! We don\'t just sell tours, we create memories. Forget about the hassle of paperwork and hotel selection. Just tell us your dream, and we will take care of everything else.',
+    'contact_us' => 'Contact us',
+    'contact_us_description' => 'Get in touch with us easily!
+Have questions, suggestions, or partnership ideas? We’re here to help.
+You can reach us via phone, email, or by filling out the contact form below.
+Our team will respond as soon as possible.',
+
+    //form
+    'your_name' => 'Your name',
+    'your_email' => 'Your email',
+    'your_message' => 'Your message',
+    'send_message' => 'Send message',
 
     //slider
     'slider_title1' => 'Discover Turkmenistan',
@@ -34,8 +46,16 @@ $lang = [
     //our tours
     'our_tours' => 'Our Tours',
 
+    //footer
+    'want_you_title' => 'Do you want to travel with us?',
+    'want_you_subtitle' => 'We offer unique tours and unforgettable adventures around the world.',   
+    'want_you_button' => 'Contact us',
 
-    'footer_about' => "Travel with us! We create unforgettable experiences and open the world to you! From thrilling adventures to relaxing vacations - we have tours for everyone!"
+    'footer_about_title' => 'A little about us',
+    'pages' => 'Pages',
+    'footer_about' => "Travel with us! We create unforgettable experiences and open the world to you! From thrilling adventures to relaxing vacations - we have tours for everyone!",
+    'we_are_social' => "We are on social networks",
+    'we_are_social_description' => "Stay connected with us! You can reach out to us anytime - we are ready to help you plan your trip.",
     ];
 
 

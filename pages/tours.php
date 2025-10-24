@@ -1,30 +1,65 @@
-<?php
+<?php 
 
-include_once 'data/data.php';
-
+session_start();
 $l = $_GET['lang'] ?? $_COOKIE['lang'] ?? 'en';
 require_once 'language/' . $l . '.php';
 
-$tours = GetTours($l);
 
+if(!isset($_SESSION['ajax_token'])) {
+    $_SESSION['ajax_token'] = bin2hex(random_bytes(32));
+}
+$token = $_SESSION['ajax_token'];
 ?>
-
-
 <main class="container" style="padding: 30px 0;">
-  <h1>Наши туры</h1>
-  <div id="tour-list">
-    
-  </div>
-  
-    <?php 
-        foreach ($tours as $tour) {
-            echo "<h3>{$tour['title']}</h3>";
-            echo "<a href=" . 'tour?s=' . $tour['slug'] . ">More details</a><hr>";
-        } 
-    ?>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 centered">
+                <h3><span><?= $lang["our_tours"]?></span></h3>
+                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+            </div>
+        </div>
+
+        <div id="loader" style="position: relative; min-height: 200px;">
+            <div id="loader" class="loader"></div>
+        </div>
+        
+        <div id="tours-container" class="row adoption">
+            
+        </div>
+    </div>
 </main>
 
-
-<!-- 
-$tours = GetTours($l);
-
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const AJAX_TOKEN = "<?= $token ?>";
+    fetch("data/get-tours.php?lang=<?= $l ?>", {
+        headers: { 'X-Requested-With': 'XMLHttpRequest', 'X-Ajax-Token': AJAX_TOKEN } // <-- важный заголовок
+    })
+    .then(res => {
+        if(!res.ok) throw new Error("Ошибка загрузки");
+        return res.json(); // получаем JSON
+    })
+    .then(data => {
+        const container = document.getElementById("tours-container");
+        container.innerHTML = '';
+        data.forEach(tour => {
+            const html = `
+                <div class="col-md-4">
+					<a href="tour?s=${encodeURIComponent(tour.slug)}" title=""><img src="images/${tour.image}" width="360" height="360" style="object-fit: cover;" alt="${tour.title}" /></a>
+					<div class="title">
+						<h5>
+							<span data-hover="${tour.title}">${tour.title}</span>
+						</h5>
+					</div>
+				</div>
+            `;
+            container.insertAdjacentHTML('beforeend', html);
+        });
+        document.getElementById("loader").style.display = "none";
+    })
+    .catch(err => {
+        document.getElementById("loader").innerText = "Ошибка загрузки туров";
+        console.error(err);
+    });
+});
+</script>
