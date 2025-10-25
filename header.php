@@ -60,7 +60,7 @@
                 </li>
 
                 <li class="dropdown" style="cursor: pointer;">
-                     <a href="services.html" class="dropdown-toggle" data-toggle="dropdown"><span data-hover="<?= $lang['language'] ?>">
+                     <a class="dropdown-toggle" data-toggle="dropdown"><span data-hover="<?= $lang['language'] ?>">
                         <?= $l ==='en' ? '<img src="assets/us.png" height="24" alt="English" />' : ($l === 'ru' ? '<img src="assets/ru.png" height="24" alt="Russian" />' : '<img src="assets/tm.png" height="24" alt="Turkmen" />') ?>
                         <?= $l ==='en' ? 'English' : ($l ==='ru' ? 'Русский' : 'Türkmençe') ?>
                      </span> <b class="caret"></b></a>

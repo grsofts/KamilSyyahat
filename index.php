@@ -11,6 +11,11 @@ $l = $_GET['lang'] ?? $_COOKIE['lang'] ?? 'en';
 require_once 'language/' . $l . '.php';
 
 
+
+if(!isset($_SESSION['ajax_token'])) {
+    $_SESSION['ajax_token'] = bin2hex(random_bytes(32));
+}
+$token = $_SESSION['ajax_token'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -36,7 +41,7 @@ require_once 'language/' . $l . '.php';
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Nunito+Sans:wght@300;400;600&display=swap&subset=latin-ext,cyrillic" rel="stylesheet">
 
 	<link href="js/fancybox.css" rel="stylesheet">
-	<script src="js/fancybox.umd.js" defer></script>
+	<script src="js/fancybox.umd.js"></script>
 
 
 

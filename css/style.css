@@ -239,19 +239,19 @@ img {
 }
 
 .affix.navbar-default .navbar-toggle {
-	border: 2px solid #65c178;
+	border: 2px solid var(--primary-blue);
 }
 
 .affix.navbar-default .navbar-toggle .icon-bar {
-	background-color: #65c178;
+	background-color: var(--primary-blue);
 }
 
 .affix.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background: #fff;
+	background: transparent;
 }
 
 .affix.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
-	background-color: #65c178;
+	background-color: var(--primary-blue);
 }
 
 /** NAV ON SCROLL  **/
@@ -614,6 +614,8 @@ img {
 	text-transform: uppercase;
 	color: #fff;
 	font-weight: 700;
+	/*CUSTOM*/
+	height: 276px;
 }
 
 #carousel div a::before {
@@ -1762,7 +1764,7 @@ img {
 	
 	.navbar-nav {
 		float: none;
-		background: #65c178;
+		background: var(--primary-blue);
 		margin: 20px 0 0 0;
 	}
 	

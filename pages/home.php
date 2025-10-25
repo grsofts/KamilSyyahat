@@ -1,4 +1,6 @@
 <?php 
+
+
 ?>
 
 <!-- Slider -->
@@ -119,39 +121,16 @@
 </div>
 <!-- Services end -->
  <!-- Carousel -->
-<div id="c-carousel">
+
+ <div id="c-carousel">
     <div id="wrapper">
+        
+        <div id="loader-wrapper" style="position: relative; min-height: 200px;">
+            <div id="loader" class="loader"></div>
+        </div>
+
         <div id="carousel">
-            <div>
-                <a href="images/dog-1.png" title="Dog" data-hover="Sandy the west highland terrier" data-toggle="lightbox" class="lightbox">
-                    <img src="images/dog-1.png" alt="Dog" />
-                </a>
-            </div>
-            <div>
-                <a href="images/dog-2.png" title="Dog" data-hover="Marty the yorkshire terrier" data-toggle="lightbox" class="lightbox">
-                    <img src="images/dog-2.png" alt="Dog" />
-                </a>
-            </div>
-            <div>
-                <a href="images/dog-3.png" title="Dog" data-hover="Kyla the bull terrier" data-toggle="lightbox" class="lightbox">
-                    <img src="images/dog-3.png" alt="Dog" />
-                </a>
-            </div>
-            <div>
-                <a href="images/dog-1.png" title="Dog" data-hover="Marty the yorkshire terrier" data-toggle="lightbox" class="lightbox">
-                    <img src="images/dog-1.png" alt="Dog" />
-                </a>
-            </div>
-            <div>
-                <a href="images/dog-2.png" title="Dog" data-hover="Sandy the west highland terrier" data-toggle="lightbox" class="lightbox">
-                    <img src="images/dog-2.png" alt="Dog" />
-                </a>
-            </div>
-            <div>
-                <a href="images/dog-3.png" title="Dog" data-hover="Kyla the bull terrier" data-toggle="lightbox" class="lightbox">
-                    <img src="images/dog-3.png" alt="Dog" />
-                </a>
-            </div>
+             
         </div>
         <div id="pager" class="pager"></div>
     </div>
@@ -271,3 +250,49 @@
     </div>
 </div>
 <!-- Adoption end -->
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const AJAX_TOKEN = "<?= $token ?>";
+    fetch("data/get-tours.php?lang=<?= $l ?>", {
+        headers: { 'X-Requested-With': 'XMLHttpRequest', 'X-Ajax-Token': AJAX_TOKEN } // <-- важный заголовок
+    })
+    .then(res => {
+        if(!res.ok) throw new Error("Ошибка загрузки");
+        return res.json(); // получаем JSON
+    })
+    .then(data => {
+        const container = document.getElementById("carousel");
+        container.innerHTML = '';
+        data.forEach(tour => {
+            const html = `
+                <div>
+                    <a data-fancybox="gallery" target="_self" data-caption="${tour.title}" href="images/${tour.image}" title="${tour.title}" data-hover="${tour.title}" >
+                        <img src="images/${tour.image}" alt="${tour.title}" />
+                    </a>
+                </div>
+            `;
+            container.insertAdjacentHTML('beforeend', html);
+              
+        });
+        
+        initCarouFredSel();
+         
+        document.getElementById("loader-wrapper").style.display = "none";
+    })
+    .catch(err => {
+        document.getElementById("loader-wrapper").innerText = "Ошибка загрузки туров";
+        console.error(err);
+    });
+});
+
+    
+</script>
+<!-- 
+
+<div>
+                    <a href="images/${tour.image}" title="${tour.title}" data-hover="${tour.title}" data-toggle="lightbox" class="lightbox">
+                        <img src="images/${tour.image}" style="width: 100%; height: 100%;object-fit: cover;"  alt="${tour.title}" />
+                    </a>
+                </div> -->

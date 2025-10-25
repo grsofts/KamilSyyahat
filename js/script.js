@@ -50,3 +50,26 @@ scrollBtn.addEventListener("click", () => {
   });
 });
 
+
+document.querySelectorAll('[data-fancybox="gallery"]').forEach(el => {
+        el.addEventListener('click', function (e) {
+            e.preventDefault();
+        });
+    });
+    Fancybox.bind('[data-fancybox="gallery"]', {
+        Hash: false,
+        backFocus: false,
+        Toolbar: {
+            display: {
+                left: ["infobar"],
+                middle: [
+                    "zoomIn",
+                    "zoomOut",
+                    "rotateCCW",
+                    "rotateCW",
+                ],
+                right: ["close"],
+            },
+        }
+    });
+

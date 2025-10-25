@@ -20,21 +20,9 @@ $(function() {
 			}
 		}
 	});
+
 	
-	if ($("#carousel").length > 0){
-		$('#carousel').carouFredSel({
-			responsive: false,
-			scroll: 1,
-			pagination: "#pager",
-			items: {
-				width: 374,
-				visible: {
-					min: 4,
-					max: 20
-				}
-			}
-		});
-	}
+	
 	
 	if ($("#tabs").length > 0){
 		$("#tabs").tabs();
@@ -86,3 +74,26 @@ $(function() {
 	});
 	
 });
+
+
+
+function initCarouFredSel(){
+	if ($("#carousel").length > 0){
+
+        $('#carousel').trigger('destroy', true);
+
+        $('#carousel').carouFredSel({
+            responsive: true,
+            width: '100%',
+            scroll: 1,
+            items: {
+                visible: { min: 2, max: 6 },
+                width: 400,
+                height: 'variable'
+            },
+            prev: '#prev',
+            next: '#next',
+            pagination: '#pager'
+        });
+	}
+}

@@ -21,22 +21,24 @@ include_once 'conf/constants.php';
 		<div class="container content" style="margin-top: 50px; margin-bottom: 50px;">
 			<div class="row">
 				<div class="col-md-9">
-					<form role="form" id="contact_form">
+					<form role="form" id="contact_form"  method="POST" action="conf/send-message.php">
 						<div class="form-group">
 							<label for="InputName"><?= $lang['your_name'] ?></label>
-							<input type="text" class="form-control" id="InputName" placeholder="<?= $lang['your_name'] ?>">
+							<input type="text" class="form-control" name="name" id="InputName" placeholder="<?= $lang['your_name'] ?>">
 						</div>
 						<div class="form-group">
 							<label for="InputEmail"><?= $lang['your_email'] ?></label>
-							<input type="email" class="form-control" id="InputEmail" placeholder="<?= $lang['your_email'] ?>">
+							<input type="email" class="form-control" name="email" id="InputEmail" placeholder="<?= $lang['your_email'] ?>">
 						</div>
 						<div class="form-group">
 							<label for="InputMessage"><?= $lang['your_message'] ?></label>
-							<textarea class="form-control" id="Message" placeholder="<?= $lang['your_message'] ?>" rows="8"></textarea>
+							<textarea class="form-control" name="message" id="Message" placeholder="<?= $lang['your_message'] ?>" rows="8"></textarea>
 						</div>
 
 						
-  						<div class="g-recaptcha" data-sitekey="6LfkmfUrAAAAAD1cY0NCjGROUWYfRiQaVg24Hbc7"></div>
+  						<!-- <div class="g-recaptcha" data-sitekey="6LfkmfUrAAAAAD1cY0NCjGROUWYfRiQaVg24Hbc7"></div> -->
+  						<div class="g-recaptcha" data-sitekey="6Ldji_YrAAAAAK-g7OMwqDR42sjr7gb5flzS-7Vz"></div>  
+						<!-- 2nji -->
 						<button type="submit" class="btn btn-default btn-green"><?= $lang['send_message'] ?></button>
 					</form>
 				</div>
