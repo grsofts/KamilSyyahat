@@ -64,7 +64,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-4 col3">
-            <a href="services-single.html" title="Dog boarding kennels" class="roundal" id="kennel"></a>
+            <a title="<?= $lang['ashgabat'] ?>" class="roundal" id="kennel"></a>
             <h3><?= $lang['ashgabat'] ?></h3>
             <p class="truncate-2"><?= $lang['ashgabat_description'] ?></p>
             <!-- <form method="get" action="services-single.html">
@@ -72,7 +72,7 @@
             </form> -->
         </div>
         <div class="col-md-4 col3">
-            <a href="services-single.html" title="Doggy grooming" class="roundal" id="grooming"></a>
+            <a title="<?= $lang['akhal'] ?>" class="roundal" id="grooming"></a>
             <h3><?= $lang['akhal'] ?></h3>
             <p class="truncate-2"><?= $lang['akhal_description'] ?></p>
             <!-- <form method="get" action="services-single.html">
@@ -80,7 +80,7 @@
             </form> -->
         </div>
         <div class="col-md-4 col3">
-            <a href="services-single.html" title="Adoption centre" class="roundal" id="adoption"></a>
+            <a title="<?= $lang['balkan'] ?>" class="roundal" id="adoption"></a>
             <h3><?= $lang['balkan'] ?></h3>
             <p class="truncate-2"><?= $lang['balkan_description'] ?></p>
              <!-- <form method="get" action="services-single.html">
@@ -88,7 +88,7 @@
             </form> -->
         </div>
         <div class="col-md-4 col3">
-            <a href="services-single.html" title="Dog walking" class="roundal" id="walking"></a>
+            <a title="<?= $lang['dashoguz'] ?>" class="roundal" id="walking"></a>
             <h3><?= $lang['dashoguz'] ?></h3>
             <p class="truncate-2"><?= $lang['dashoguz_description'] ?></p>
              <!-- <form method="get" action="services-single.html">
@@ -96,7 +96,7 @@
             </form> -->
         </div>
         <div class="col-md-4 col3">
-            <a href="services-single.html" title="Care advice" class="roundal" id="advice"></a>
+            <a title="<?= $lang['mary'] ?>" class="roundal" id="advice"></a>
             <h3><?= $lang['mary'] ?></h3>
             <p class="truncate-2"><?= $lang['mary_description'] ?></p>
              <!-- <form method="get" action="services-single.html">
@@ -104,7 +104,7 @@
             </form> -->
         </div>
         <div class="col-md-4 col3">
-            <a href="services-single.html" title="Puppy play" class="roundal" id="play"></a>
+            <a title="<?= $lang['lebap'] ?>" class="roundal" id="play"></a>
             <h3><?= $lang['lebap'] ?></h3>
             <p class="truncate-2"><?= $lang['lebap_description'] ?></p>
              <!-- <form method="get" action="services-single.html">
@@ -274,7 +274,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 </div>
             `;
             container.insertAdjacentHTML('beforeend', html);
-              
         });
         
         initCarouFredSel();
@@ -287,8 +286,54 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-    
 </script>
+
+<script>
+      document.getElementById("kennel").addEventListener("click", () => {
+        Fancybox.show(
+          [
+            {
+              src: "https://lipsum.app/id/1/1800x1200",
+              caption: "Sample image #1",
+              thumbSrc: "https://lipsum.app/id/1/150x100",
+              thumbAlt: "My custom description #1",
+              thumbClass: "my_custom_thumb_class",
+            },
+            {
+              src: "https://lipsum.app/id/2/1800x1200",
+              caption: "Sample image #2",
+              thumbSrc: "https://lipsum.app/id/2/150x100",
+              thumbAlt: "My custom description #2",
+              thumbClass: "my_custom_thumb_class",
+            },
+            {
+              src: "https://lipsum.app/id/3/1800x1200",
+              caption: "Sample image #3",
+              thumbSrc: "https://lipsum.app/id/3/150x100",
+              thumbAlt: "My custom description #3",
+              thumbClass: "my_custom_thumb_class",
+            },
+          ],
+          {
+            Hash: false,
+            backFocus: false,
+            Toolbar: {
+                display: {
+                    left: ["infobar"],
+                    middle: [
+                        "zoomIn",
+                        "zoomOut",
+                        "rotateCCW",
+                        "rotateCW",
+                    ],
+                    right: ["close"],
+                },
+            }
+          }
+        );
+      });
+    </script>
+
 <!-- 
 
 <div>
