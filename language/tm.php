@@ -47,6 +47,10 @@ Toparymyz iň gysga wagtda size jogap berer.',
     //our tours
     'our_tours' => 'Biziň syýahatlarymyz',
 
+    'our_prides' => 'Milli däp-dessurlar we halkyň buýsanjy',
+    'prides_subtitle' => 'Türkmenistanyň baý medeni mirasy bilen tanyşyň — halkymyzyň buýsanjy bolan gadymy däp-dessurlary, sungaty we nyşanlary.',
+    
+
     //footer
     'want_you_title' => 'Biziň bilen syýahat etmek isleýärsiňizmi?',
     'want_you_subtitle' => 'Biz bütin dünýäde ýatdan çykmajak syýahatlary hödürleýäris.',   

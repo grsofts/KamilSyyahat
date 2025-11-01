@@ -678,7 +678,7 @@ img {
 }
 
 #c-carousel .pager a.selected, #c-carousel .pager a:hover {
-	background: #65c178;	
+	background: var(--primary-blue);	
 }
 
 

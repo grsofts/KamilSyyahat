@@ -19,8 +19,13 @@ $token = $_SESSION['ajax_token'];
             </div>
         </div>
 
-        <div id="loader" style="position: relative; min-height: 200px;">
+        <!-- <div id="loader" style="position: relative; min-height: 200px;">
             <div id="loader" class="loader"></div>
+        </div> -->
+
+         <div id="loader-wrapper" style="position: relative; display:flex; justify-content:center; align-items:center; min-height: 200px;">
+            <!-- <div id="loader" class="loader"></div> -->
+            <img src="assets/loading1.gif" width="120" height="120" alt="Loading..." class="loader-dog" />
         </div>
         
         <div id="tours-container" class="row adoption">
@@ -55,10 +60,10 @@ document.addEventListener("DOMContentLoaded", function() {
             `;
             container.insertAdjacentHTML('beforeend', html);
         });
-        document.getElementById("loader").style.display = "none";
+        document.getElementById("loader-wrapper").style.display = "none";
     })
     .catch(err => {
-        document.getElementById("loader").innerText = "Ошибка загрузки туров";
+        document.getElementById("loader-wrapper").innerText = "Ошибка загрузки туров";
         console.error(err);
     });
 });

@@ -16,7 +16,7 @@ include_once 'conf/constants.php';
 <!-- Adoption end -->
 <!-- Staff -->
 <div class="staff" data-stellar-background-ratio=".3">
-    <div class="container">
+    <!-- <div class="container">
         <div class="row">
             <div class="col-md-3 member">
                 <div data-stellar-ratio="1.2" data-stellar-vertical-offset="150" data-stellar-horizontal-offset="0">
@@ -63,8 +63,8 @@ include_once 'conf/constants.php';
                 </div>
             </div>
         </div>
-    </div>
-</div>
+    </div> -->
+</div> 
 <!-- Staff end -->
 <!-- Content -->
 <div class="container content">

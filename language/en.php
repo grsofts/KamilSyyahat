@@ -46,6 +46,10 @@ Our team will respond as soon as possible.',
     //our tours
     'our_tours' => 'Our Tours',
 
+
+    'our_prides' => 'Traditions and Pride of the Nation',
+    'prides_subtitle' => 'Discover the rich cultural heritage of Turkmenistan — ancient traditions, art, and national symbols that define the pride of its people.',
+
     //footer
     'want_you_title' => 'Do you want to travel with us?',
     'want_you_subtitle' => 'We offer unique tours and unforgettable adventures around the world.',   

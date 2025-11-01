@@ -125,8 +125,9 @@
  <div id="c-carousel">
     <div id="wrapper">
         
-        <div id="loader-wrapper" style="position: relative; min-height: 200px;">
-            <div id="loader" class="loader"></div>
+        <div id="loader-wrapper" style="position: relative; display:flex; justify-content:center; align-items:center; min-height: 200px;">
+            <!-- <div id="loader" class="loader"></div> -->
+            <img src="assets/loading1.gif" width="120" height="120" alt="Loading..." class="loader-dog" />
         </div>
 
         <div id="carousel">
@@ -157,6 +158,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 centered">
+
+            <h3 style="margin-top:20px;"><span><?= $lang['our_tours'] ?> </span></h3>
+
+
                 <!-- Slider -->
                 <div id="home_testimonial" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
@@ -194,8 +199,8 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12 centered">
-            <h3><span>Find your perfect companion</span></h3>
-            <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+            <h3><span><?= $lang['our_prides'] ?></span></h3>
+            <p><?= $lang['prides_subtitle'] ?></p>
         </div>
     </div>
     <div class="row adoption">
