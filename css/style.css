@@ -346,7 +346,7 @@ img {
 	-webkit-animation: SlideDesc 1.5s normal; /* Safari 4+ */
 	-moz-animation:    SlideDesc 1.5s normal; /* Fx 5+ */
 	-o-animation:      SlideDesc 1.5s normal; /* Opera 12+ */
-	animation:         SlideDesc 1.5s normal; /* IE 10+ */
+	animation:         SlideDesc 1.5s normal; /*IE 10+*/
 	position: relative;
 }
 

@@ -19,6 +19,28 @@ Biz kömek etmäge taýýar.
 Telefon, e-poçta ýa-da aşakdaky aragatnaşyk formasy arkaly bize ýüz tutup bilersiňiz.
 Toparymyz iň gysga wagtda size jogap berer.',
 
+
+
+ //prides
+    'pride_alabay' => 'Alabaý (Türkmen çopan iti)', //1
+    'pride_alabay_description' => 'Alabaý diňe bir it däl, ol Türkmenistanyň nyşanydyr. Bu beýik haýwanlar güýçleri, wepalylygy we akyly bilen tanalýar. Olar asyrlaryň dowamynda göçmenleri goradylar we ynamdar ýoldaşlar we goragçylar bolmagynda dowam edýärler.',
+    'pride_ahalteke' => 'Ahal‑Teke (Türkmeniň "Altyn" aty)', //2
+    'pride_ahalteke_description' => 'Ahal‑Teke Türkmenistanyň buýsanjy we dünýäde iň gadymy at görnüşleriniň biridir. Olaryň tizligi, çydamlylygy we deri örtüginiň özboluşly altyn çaýmyşaklygy bilen tanalýar, bu atlar ýurduň medeniýetinde we taryhynda möhüm rol oýnaýar.',
+    'pride_carpets' => 'Türkmen halylary', //3
+    'pride_carpets_description' => 'Türkmen halylary diňe bir öý harytlary däl, olar sungat eserleridir. Her haly öz hekaýasyny aýdýar, halkyň baý medeniýetini we däplerini görkezýär. Olar ýokary hili we özboluşly nagyşlary bilen tanalýar.',
+    'pride_kitchen' => 'Türkmen tagamlary', //4
+    'pride_kitchen_description' => 'Türkmen aşhanasy tagamlaryň we yslaryň janly garyşygydyr. Ol täze önümler we nesillerden nesillere geçýän däp-dessurlar esasynda gurulýar. Palaw, dograma, manty we beýleki tagamlary synap görüň, olar öz tagamy we dürlüligi bilen sizi begendirer.',
+    'pride_kushtdepdi' => 'Küştdepdi (Milli türkmen tansy)', //5
+    'pride_kushtdepdi_description' => 'Küştdepdi tansy halkyň medeni ýadygärlikeriniň sanyna girýär. Bu däpler nesilden nesile geçirilýär we Türkmenistanyň özboluşly mirasyny saklaýar.',
+    'pride_ornaments' => 'Bezegler we dokma (Milli bezegler)', //6
+    'pride_ornaments_description' => 'Milli türkmen bezegleri we dokma  ýurduň medeni mirasynyň aýrylmaz bölegidir. Olar türkmen halkynyň baý taryhyny we özboluşly stilini görkezýär.',
+    'pride_dutar' => 'Dutar (Milli saz guraly)', //7
+    'pride_dutar_description' => 'Dutar iki tarly türkmen saz guralydyr. Ol ýurduň baý saz medeniýetiniň nyşanydyr, bu saz guralda halk aýdydyr-sazlary çalynýar.',
+    'pride_closes' => 'Türkmen milli geýimleri', //8
+    'pride_closes_description' => 'Türkmen milli geýimleri ýurduň medeni mirasynyň janly beýanydyr. Ol özboluşly nagyşlary, ýakymly reňkleri we nesilden nesile geçirilýän milli nyşanlary bilen tapawutlanýar.',
+    'pride_festivals' => 'Türkmen baýramçylyklary we guramaçylyk çäreleri', //9
+    'pride_festivals_description' => 'Baýramçylyk çäreleri halky agzybirlige çagyrýa, Türkmeniň Bedew baýramy, Türmeniň Milli Haly baýramy, ýaz paslynyň nyşany Nowruz baýramy we ş.m. bulaň barysy türkmeniň baý medeniýetini alamatlandyrýandyr.',
+
     //form
     'your_name' => 'Siziň adyňyz',
     'your_email' => 'Siziň e-poçtaňyz',

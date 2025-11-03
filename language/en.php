@@ -17,6 +17,27 @@ $lang = [
 Have questions, suggestions, or partnership ideas? We’re here to help.
 You can reach us via phone, email, or by filling out the contact form below.
 Our team will respond as soon as possible.',
+    
+     //prides
+    'pride_alabay' => 'Alabay (Turkmen Shepherd Dog)', //1
+    'pride_alabay_description' => 'The Alabay is not just a dog, it is a symbol of Turkmenistan. These majestic animals are known for their strength, loyalty, and intelligence. They have guarded nomads for centuries and continue to be faithful companions and protectors.',
+    'pride_ahalteke' => 'Akhal‑Teke (Turkmen "Golden" Horse)', //2
+    'pride_ahalteke_description' => 'The Akhal‑Teke is the pride of Turkmenistan and one of the oldest horse breeds in the world. Known for their speed, endurance, and unique metallic sheen of their coat, these horses has a great importance in the culture and history of the country.',
+    'pride_carpets' => 'Turkmen Carpets', //3
+    'pride_carpets_description' => 'Turkmen carpets are not just household items, they are works of art. Each carpet tells its own story, reflecting the rich culture and traditions of the people. They are known for their high quality and unique patterns.',
+    'pride_kitchen' => 'Turkmen Cuisine', //4
+    'pride_kitchen_description' => 'Turkmen cuisine is a vibrant blend of flavors and aromas. It is based on fresh ingredients and traditional recipes passed down through generations. Try plov, dograma, manti, and other dishes that will delight you with their taste and variety.',
+    'pride_kushtdepdi' => 'Kushtdepdi (Traditional Turkmen Dwelling)', //5
+    'pride_kushtdepdi_description' => 'The Kushtdepdi dance and other traditional art forms preserve the cultural memory of the people. These traditions are passed down from generation to generation, maintaining the unique heritage of Turkmenistan.',
+    'pride_ornaments' => 'Ornaments and Embroidery (Traditional Decorations)', //6
+    'pride_ornaments_description' => 'Traditional Turkmen ornaments and embroidery are an integral part of the country\'s cultural heritage. They reflect the rich history and unique style of the Turkmen people.',
+    'pride_dutar' => 'Dutar (Traditional Musical Instrument)', //7
+    'pride_dutar_description' => 'The Dutar is a traditional Turkmen musical instrument with two strings. It symbolizes the rich musical culture of the country and is used in folk music and dances.',
+    'pride_closes' => 'Turkmen National Clothing', //8
+    'pride_closes_description' => 'Turkmen national clothing is a vibrant reflection of the country\'s cultural heritage. It is characterized by its unique patterns, bright colors, and traditional elements that are passed down from generation to generation.',
+    'pride_festivals' => 'Turkmen Holidays and Festivals', //9
+    'pride_festivals_description' => 'Holidays unite the people — for example, Turkmen Horse Day, Turkmen Сarpet Day, the spring holiday Nowruz, and others. These events reflect the rich culture and traditions of Turkmenistan.',
+
 
     //form
     'your_name' => 'Your name',

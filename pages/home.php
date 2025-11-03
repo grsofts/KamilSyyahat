@@ -17,8 +17,8 @@
         <div class="item active">
             <img src="images/slider1.jpg" alt="" />
             <div class="carousel-caption">
-                <h2 style="font-weight:700"><?= $lang["slider_title1"] ?></h2>
-                <p style="color:var(--primary-blue)"><?= $lang["slider_text1"] ?></p>
+                <h2 style="font-weight:700; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);"><?= $lang["slider_title1"] ?></h2>
+                <p style="color:var(--primary-blue);"><?= $lang["slider_text1"] ?></p>
                 <!-- <form method="get" action="index.html">
                     <button type="submit" class="btn btn-lg btn-default">Learn more</button>
                     </form> -->
@@ -205,50 +205,75 @@
     </div>
     <div class="row adoption">
         <div class="col-md-4">
-            <a href="adoption-single.html" title=""><img src="images/dog-4.png" alt="Saint Bernard" /></a>
+            <a href="adoption-single.html" title="<?= $lang['pride_alabay'] ?>"><img src="images/upload/prides/alabay1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_alabay'] ?>" /></a>
             <div class="title">
                 <h5>
-                    <span data-hover="Saint Bernard">Saint Bernard</span>
+                    <span data-hover="<?= $lang['pride_alabay'] ?>"><?= $lang['pride_alabay'] ?></span>
                 </h5>
             </div>
         </div>
         <div class="col-md-4">
-            <a href="adoption-single.html" title="Beagle"><img src="images/dog-5.png" alt="Beagle" /></a>
+            <a href="adoption-single.html" title="<?= $lang['pride_ahalteke'] ?>"><img src="images/upload/prides/bedew1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_ahalteke'] ?>" /></a>
             <div class="title">
                 <h5>
-                    <span data-hover="Beagle">Beagle</span>
+                    <span data-hover="<?= $lang['pride_ahalteke'] ?>"><?= $lang['pride_ahalteke'] ?></span>
                 </h5>
             </div>
         </div>
         <div class="col-md-4">
-            <a href="adoption-single.html" title="Staffordshire Bull Terrier"><img src="images/dog-6.png" alt="Staffordshire Bull Terrier" /></a>
+            <a href="adoption-single.html" title="<?= $lang['pride_carpets'] ?>"><img src="images/upload/prides/haly1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_carpets'] ?>" /></a>
             <div class="title">
                 <h5>
-                    <span data-hover="Staffordshire Bull Terrier">Staffordshire Bull Terrier</span>
+                    <span data-hover="<?= $lang['pride_carpets'] ?>"><?= $lang['pride_carpets'] ?></span>
                 </h5>
             </div>
         </div>
         <div class="col-md-4">
-            <a href="adoption-single.html" title="King Charles Cavalier"><img src="images/dog-7.png" alt="King Charles Cavalier" /></a>
+            <a href="adoption-single.html" title="<?= $lang['pride_kitchen'] ?>"><img src="images/upload/prides/kitchen1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_kitchen'] ?>" /></a>
             <div class="title">
                 <h5>
-                    <span data-hover="King Charles Cavalier">King Charles Cavalier</span>
+                    <span data-hover="<?= $lang['pride_kitchen'] ?>"><?= $lang['pride_kitchen'] ?></span>
                 </h5>
             </div>
         </div>
         <div class="col-md-4">
-            <a href="adoption-single.html" title="Dachshund"><img src="images/dog-8.png" alt="Dachshund" /></a>
+            <a href="adoption-single.html" title="<?= $lang['pride_kushtdepdi'] ?>"><img src="images/upload/prides/kushtdepdi1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_kushtdepdi'] ?>" /></a>
             <div class="title">
                 <h5>
-                    <span data-hover="Dachshund">Dachshund</span>
+                    <span data-hover="<?= $lang['pride_kushtdepdi'] ?>"><?= $lang['pride_kushtdepdi'] ?></span>
                 </h5>
             </div>
         </div>
         <div class="col-md-4">
-            <a href="adoption-single.html" title="French Bulldog"><img src="images/dog-9.png" alt="French Bulldog" /></a>
+            <a href="adoption-single.html" title="<?= $lang['pride_ornaments'] ?>"><img src="images/upload/prides/ornament1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_ornaments'] ?>" /></a>
             <div class="title">
                 <h5>
-                    <span data-hover="French Bulldog">French Bulldog</span>
+                    <span data-hover="<?= $lang['pride_ornaments'] ?>"><?= $lang['pride_ornaments'] ?></span>
+                </h5>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <a href="adoption-single.html" title="<?= $lang['pride_dutar'] ?>"><img src="images/upload/prides/dutar1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_dutar'] ?>" /></a>
+            <div class="title">
+                <h5>
+                    <span data-hover="<?= $lang['pride_dutar'] ?>"><?= $lang['pride_dutar'] ?></span>
+                </h5>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <a href="adoption-single.html" title="<?= $lang['pride_closes'] ?>"><img src="images/upload/prides/closes1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_closes'] ?>" /></a>
+            <div class="title">
+                <h5>
+                    <span data-hover="<?= $lang['pride_closes'] ?>"><?= $lang['pride_closes'] ?></span>
+                </h5>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <a href="adoption-single.html" title="<?= $lang['pride_festivals'] ?>"><img src="images/upload/prides/bayram1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_festivals'] ?>" /></a>
+            <div class="title">
+                <h5>
+                    <span data-hover="<?= $lang['pride_festivals'] ?>"><?= $lang['pride_festivals'] ?></span>
                 </h5>
             </div>
         </div>
