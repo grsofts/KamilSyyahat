@@ -9,16 +9,15 @@
     <ol class="carousel-indicators">
         <li data-target="#home_carousel" data-slide-to="0" class="active"></li>
         <li data-target="#home_carousel" data-slide-to="1"></li>
-        <li data-target="#home_carousel" data-slide-to="2"></li>
     </ol>
     
     <!-- Wrapper for slides -->
-    <div class="carousel-inner">
+    <div class="carousel-inner" id="carousel-home">
         <div class="item active">
             <img src="images/slider1.jpg" alt="" />
             <div class="carousel-caption">
-                <h2 style="font-weight:700; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);"><?= $lang["slider_title1"] ?></h2>
-                <p style="color:var(--primary-blue);"><?= $lang["slider_text1"] ?></p>
+                <h2 style="font-weight:700;"><?= $lang["slider_title1"] ?></h2>
+                <p><?= $lang["slider_text1"] ?></p>
                 <!-- <form method="get" action="index.html">
                     <button type="submit" class="btn btn-lg btn-default">Learn more</button>
                     </form> -->
@@ -30,31 +29,19 @@
         <div class="item">
             <img src="images/travel2.jpg" alt="" />
             <div class="carousel-caption">
-                <h2>Lorem ipsum delor sit amet</h2>
-                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum.</p>
-                <form method="get" action="index.html">
-                    <button type="submit" class="btn btn-lg btn-default">Learn more</button>
-                </form>
+                <h2 style="font-weight:700;"><?= $lang["slider_title2"] ?></h2>
+                <p><?= $lang["slider_text2"] ?></p>
+                
             </div>
         </div>
 
-        <div class="item">
-            <img src="images/travel3.jpg" alt="" />
-            <div class="carousel-caption">
-                <h2>Lorem ipsum delor sit amet 3</h2>
-                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum.</p>
-                <form method="get" action="index.html">
-                    <button type="submit" class="btn btn-lg btn-default">Learn more</button>
-                </form>
-            </div>
-        </div>
     </div>
     
     <!-- Controls -->
-    <a class="left carousel-control" href="#home_carousel" data-slide="prev">
+    <a class="left carousel-control" style="z-index:2" href="#home_carousel" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left"></span>
     </a>
-    <a class="right carousel-control" href="#home_carousel" data-slide="next">
+    <a class="right carousel-control" style="z-index:2" href="#home_carousel" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right"></span>
     </a>
 </div>
@@ -115,7 +102,7 @@
     <div class="row">
         <div class="col-md-12 centered">
             <h3><span><?= $lang['our_tours'] ?> </span></h3>
-            <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+            <p><?= $lang['slider_text1'] ?></p>
         </div>
     </div>
 </div>
@@ -137,29 +124,20 @@
     </div>
 </div>
 <!-- Carousel end -->
+ 
 <!-- Rehome -->
 <div class="rehome">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 centered">
-                <p><a href="#" title="Dougie" class="roundal"></a></p>
-                <h4>Could you give <a href="adoption-single.html" title="Could you give Dougie a new home?">Dougie</a> a new home?</h4>
-                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
-                <form method="get" action="adoption-single.html">	
-                    <button type="submit" class="btn btn-default btn-green">Learn more</button>
-                </form>
-            </div>
-        </div>
-    </div>
+   
 </div>
 <!-- Rehome end -->
+
 <!-- Testimonials -->
 <div class="testimonials" data-stellar-background-ratio="0.6">
     <div class="container">
         <div class="row">
             <div class="col-md-12 centered">
 
-            <h3 style="margin-top:20px;"><span><?= $lang['our_tours'] ?> </span></h3>
+            <h3 style="margin-top:20px;"><span><?= $lang['reviews'] ?> </span></h3>
 
 
                 <!-- Slider -->
@@ -170,21 +148,30 @@
                         <li data-target="#home_testimonial" data-slide-to="1"></li>
                         <li data-target="#home_testimonial" data-slide-to="2"></li>
                         <li data-target="#home_testimonial" data-slide-to="3"></li>
+                        <li data-target="#home_testimonial" data-slide-to="4"></li>
                     </ol>
                     
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <p>"Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum."</p>
+                            <p>"Поездка была просто великолепной! Всё организовано чётко — от трансфера до гида. Особенно понравился Ашхабад ночью, впечатления незабываемые!"</p>
+                            <p style="font-weight: bold;">- Анна, Москва</p>
                         </div>
                         <div class="item">
-                            <p>"Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui."</p>
+                            <p>"I had an amazing experience in Turkmenistan! The desert tour was something out of this world. Very professional team and friendly guide!"</p>
+                            <p style="font-weight: bold;">- Michael, London</p>
                         </div>
                         <div class="item">
-                            <p>"Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum."</p>
+                            <p>"Gidimiz örän mylakatlydy, ähli ýerleri düşündirdi. Mary şäheriniň taryhy ýerleri gaty täsirli boldy. Sag boluň, “Kamil Syýahat” topary!"</p>
+                            <p style="font-weight: bold;">- Aýlar, Türkmenbaşy</p>
                         </div>
                         <div class="item">
-                            <p>"Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui."</p>
+                            <p>"Eine sehr gut organisierte Reise! Ich war überrascht, wie modern und sauber Ashgabat ist. Vielen Dank für die großartige Betreuung."</p>
+                            <p style="font-weight: bold;">- Sabine, Berlin</p>
+                        </div>
+                         <div class="item">
+                            <p>"J’ai adoré la culture, les gens, et la gastronomie turkmène. Merci pour cette aventure exceptionnelle, tout était parfait !"</p>
+                            <p style="font-weight: bold;">- Claire, Paris</p>
                         </div>
                     </div>
                 </div>
@@ -205,7 +192,7 @@
     </div>
     <div class="row adoption">
         <div class="col-md-4">
-            <a href="adoption-single.html" title="<?= $lang['pride_alabay'] ?>"><img src="images/upload/prides/alabay1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_alabay'] ?>" /></a>
+            <a data-gallery="alabay" title="<?= $lang['pride_alabay'] ?>" style="cursor: pointer;"><img src="images/upload/prides/alabay1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_alabay'] ?>" /></a>
             <div class="title">
                 <h5>
                     <span data-hover="<?= $lang['pride_alabay'] ?>"><?= $lang['pride_alabay'] ?></span>
@@ -213,7 +200,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <a href="adoption-single.html" title="<?= $lang['pride_ahalteke'] ?>"><img src="images/upload/prides/bedew1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_ahalteke'] ?>" /></a>
+            <a data-gallery="ahalteke" title="<?= $lang['pride_ahalteke'] ?>" style="cursor: pointer;"><img src="images/upload/prides/bedew1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_ahalteke'] ?>" /></a>
             <div class="title">
                 <h5>
                     <span data-hover="<?= $lang['pride_ahalteke'] ?>"><?= $lang['pride_ahalteke'] ?></span>
@@ -221,7 +208,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <a href="adoption-single.html" title="<?= $lang['pride_carpets'] ?>"><img src="images/upload/prides/haly1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_carpets'] ?>" /></a>
+            <a  data-gallery="carpets" title="<?= $lang['pride_carpets'] ?>" style="cursor: pointer;"><img src="images/upload/prides/haly1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_carpets'] ?>" /></a>
             <div class="title">
                 <h5>
                     <span data-hover="<?= $lang['pride_carpets'] ?>"><?= $lang['pride_carpets'] ?></span>
@@ -229,7 +216,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <a href="adoption-single.html" title="<?= $lang['pride_kitchen'] ?>"><img src="images/upload/prides/kitchen1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_kitchen'] ?>" /></a>
+            <a data-gallery="kitchen" title="<?= $lang['pride_kitchen'] ?>" style="cursor: pointer;"><img src="images/upload/prides/kitchen1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_kitchen'] ?>" /></a>
             <div class="title">
                 <h5>
                     <span data-hover="<?= $lang['pride_kitchen'] ?>"><?= $lang['pride_kitchen'] ?></span>
@@ -237,7 +224,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <a href="adoption-single.html" title="<?= $lang['pride_kushtdepdi'] ?>"><img src="images/upload/prides/kushtdepdi1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_kushtdepdi'] ?>" /></a>
+            <a data-gallery="kushtdepdi" title="<?= $lang['pride_kushtdepdi'] ?>" style="cursor: pointer;"><img src="images/upload/prides/kushtdepdi1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_kushtdepdi'] ?>" /></a>
             <div class="title">
                 <h5>
                     <span data-hover="<?= $lang['pride_kushtdepdi'] ?>"><?= $lang['pride_kushtdepdi'] ?></span>
@@ -245,7 +232,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <a href="adoption-single.html" title="<?= $lang['pride_ornaments'] ?>"><img src="images/upload/prides/ornament1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_ornaments'] ?>" /></a>
+            <a data-gallery="ornaments" title="<?= $lang['pride_ornaments'] ?>" style="cursor: pointer;"><img src="images/upload/prides/ornament1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_ornaments'] ?>" /></a>
             <div class="title">
                 <h5>
                     <span data-hover="<?= $lang['pride_ornaments'] ?>"><?= $lang['pride_ornaments'] ?></span>
@@ -254,7 +241,7 @@
         </div>
 
         <div class="col-md-4">
-            <a href="adoption-single.html" title="<?= $lang['pride_dutar'] ?>"><img src="images/upload/prides/dutar1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_dutar'] ?>" /></a>
+            <a data-gallery="dutar" title="<?= $lang['pride_dutar'] ?>" style="cursor: pointer;"><img src="images/upload/prides/dutar1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_dutar'] ?>" /></a>
             <div class="title">
                 <h5>
                     <span data-hover="<?= $lang['pride_dutar'] ?>"><?= $lang['pride_dutar'] ?></span>
@@ -262,7 +249,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <a href="adoption-single.html" title="<?= $lang['pride_closes'] ?>"><img src="images/upload/prides/closes1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_closes'] ?>" /></a>
+            <a data-gallery="closes" title="<?= $lang['pride_closes'] ?>" style="cursor: pointer;"><img src="images/upload/prides/closes1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_closes'] ?>" /></a>
             <div class="title">
                 <h5>
                     <span data-hover="<?= $lang['pride_closes'] ?>"><?= $lang['pride_closes'] ?></span>
@@ -270,7 +257,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <a href="adoption-single.html" title="<?= $lang['pride_festivals'] ?>"><img src="images/upload/prides/bayram1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_festivals'] ?>" /></a>
+            <a data-gallery="festivals" title="<?= $lang['pride_festivals'] ?>" style="cursor: pointer;"><img src="images/upload/prides/bayram1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_festivals'] ?>" /></a>
             <div class="title">
                 <h5>
                     <span data-hover="<?= $lang['pride_festivals'] ?>"><?= $lang['pride_festivals'] ?></span>
@@ -281,6 +268,23 @@
 </div>
 <!-- Adoption end -->
 
+<!-- Rehome -->
+<div class="rehome">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 centered">
+                <div id="canvas-container" >
+                <canvas id="sineCanvas"  width="1024" height="300"></canvas>
+            </div>
+                <p><a href="#" title="<?= $lang['rehome_title'] ?>" ></a></p>
+                <h4><?= $lang['rehome_title'] ?></h4>
+                <p><?= $lang['rehome_text'] ?></p>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- Rehome end -->
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
@@ -319,6 +323,179 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 
 <script>
+
+const galleries = {
+    alabay: [
+        {
+        src: "images/upload/prides/alabay1.jpg",
+        caption: "<?= $lang['pride_alabay_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/alabay2.jpg",
+        caption: "<?= $lang['pride_alabay_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/alabay3.jpg",
+        caption: "<?= $lang['pride_alabay_description'] ?>",
+        },
+    ],
+    ahalteke: [
+        {
+        src: "images/upload/prides/bedew1.jpg",
+        caption: "<?= $lang['pride_ahalteke_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/bedew2.jpg",
+        caption: "<?= $lang['pride_ahalteke_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/bedew3.jpg",
+        caption: "<?= $lang['pride_ahalteke_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/bedew4.jpg",
+        caption: "<?= $lang['pride_ahalteke_description'] ?>",
+        },
+    ],
+    carpets: [
+        {
+        src: "images/upload/prides/haly1.jpg",
+        caption: "<?= $lang['pride_carpets_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/haly2.jpg",
+        caption: "<?= $lang['pride_carpets_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/haly3.jpg",
+        caption: "<?= $lang['pride_carpets_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/haly4.jpg",
+        caption: "<?= $lang['pride_carpets_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/haly5.jpg",
+        caption: "<?= $lang['pride_carpets_description'] ?>",
+        },
+    ],
+    kitchen: [
+        {
+        src: "images/upload/prides/kitchen1.jpg",
+        caption: "<?= $lang['pride_kitchen_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/kitchen2.jpg",
+        caption: "<?= $lang['pride_kitchen_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/kitchen3.webp",
+        caption: "<?= $lang['pride_kitchen_description'] ?>",
+        },
+    ],
+    kushtdepdi: [
+        {
+        src: "images/upload/prides/kushtdepdi1.jpg",
+        caption: "<?= $lang['pride_kushtdepdi_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/kushtdepdi2.jpg",
+        caption: "<?= $lang['pride_kushtdepdi_description'] ?>",
+        },
+    ],
+    ornaments: [
+        {
+        src: "images/upload/prides/ornament1.jpg",
+        caption: "<?= $lang['pride_ornaments_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/ornament2.jpg",
+        caption: "<?= $lang['pride_ornaments_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/ornament3.jpg",
+        caption: "<?= $lang['pride_ornaments_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/ornament4.jpg",
+        caption: "<?= $lang['pride_ornaments_description'] ?>",
+        },
+    ],
+    dutar: [
+        {
+        src: "images/upload/prides/dutar1.jpg",
+        caption: "<?= $lang['pride_dutar_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/dutar2.jpg",
+        caption: "<?= $lang['pride_dutar_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/dutar3.jpg",
+        caption: "<?= $lang['pride_dutar_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/dutar4.jpg",
+        caption: "<?= $lang['pride_dutar_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/dutar5.jpg",
+        caption: "<?= $lang['pride_dutar_description'] ?>",
+        },
+    ],
+    closes: [
+        {
+        src: "images/upload/prides/closes1.jpg",
+        caption: "<?= $lang['pride_closes_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/closes2.jpg",
+        caption: "<?= $lang['pride_closes_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/closes3.jpg",
+        caption: "<?= $lang['pride_closes_description'] ?>",
+        },
+    ],
+    festivals: [
+        {
+        src: "images/upload/prides/bayram1.jpg",
+        caption: "<?= $lang['pride_festivals_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/bayram2.jpg",
+        caption: "<?= $lang['pride_festivals_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/bayram3.jpg",
+        caption: "<?= $lang['pride_festivals_description'] ?>",
+        },
+    ],
+};
+
+const fancyOptions = {
+  Hash: false,
+  backFocus: false,
+  Toolbar: {
+    display: {
+      left: ["infobar"],
+      middle: ["zoomIn", "zoomOut", "rotateCCW", "rotateCW"],
+      right: ["close"],
+    },
+  },
+};
+
+document.querySelectorAll("[data-gallery]").forEach((el) => {
+  el.addEventListener("click", () => {
+    const key = el.getAttribute("data-gallery");
+    if (galleries[key]) {
+      Fancybox.show(galleries[key], fancyOptions);
+    } else {
+      console.warn(`Галерея "${key}" не найдена`);
+    }
+  });
+});
+
       document.getElementById("kennel").addEventListener("click", () => {
         Fancybox.show(
           [
@@ -362,6 +539,7 @@ document.addEventListener("DOMContentLoaded", function() {
           }
         );
       });
+
     </script>
 
 <!-- 

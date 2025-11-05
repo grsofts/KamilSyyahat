@@ -61,7 +61,6 @@ $(function() {
 		);
 	}
 	
-	// delegate calls to data-toggle="lightbox"
 	$(document).delegate('*[data-toggle="lightbox"], .lightbox', 'click', function(event) {
 		event.preventDefault();
 		return $(this).ekkoLightbox({
@@ -76,7 +75,6 @@ $(function() {
 });
 
 
-
 function initCarouFredSel(){
 	if ($("#carousel").length > 0){
 
@@ -84,16 +82,27 @@ function initCarouFredSel(){
 
         $('#carousel').carouFredSel({
             responsive: true,
-            width: '100%',
-            scroll: 1,
+			circular: true,
+            infinite: true,
+			width: '100%',
+			scroll: {
+				items: 1,
+				duration: 800,
+				pauseOnHover: true
+			},
+			auto: {
+				play: true,
+				timeoutDuration: 2500
+			},
+			pagination: '#pager',
             items: {
-                visible: { min: 2, max: 6 },
-                width: 400,
-                height: 'variable'
-            },
-            prev: '#prev',
-            next: '#next',
-            pagination: '#pager'
+				width: 400,
+                visible: { 
+					min: 3, 
+					max: 5 
+				},
+            }
         });
 	}
 }
+

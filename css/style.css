@@ -350,6 +350,19 @@ img {
 	position: relative;
 }
 
+#carousel-home .item::before {
+    content: "";
+    position: absolute;
+    inset: 0; 
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+#carousel-home .carousel-caption {
+    position: absolute;
+    z-index: 2; 
+}
+
 #home_carousel img {
 	height: 100%;
 	width: 100%;
@@ -685,7 +698,7 @@ img {
 /** REHOME BLOCK  **/
 
 .rehome {
-	background: #f6f6f6;
+	background: #ffffff;
 	border-top: 1px solid #edeaea;
 	margin: 70px 0 0 0;
 }
@@ -712,7 +725,7 @@ img {
 /**  STAFF BLOCK  **/
 
 .staff {
-	background: #363b3f url("../images/staff-bg.png") 0 0 no-repeat;
+	background: #363b3f url("../images/night_ashgabat.png") 0 0 no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	padding: 70px 0;
@@ -953,8 +966,9 @@ img {
 /**  TESTIMONIALS BLOCK  **/
 
 .testimonials {
-	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/slider1.jpg") no-repeat 0 center;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/night_ashgabat.png") no-repeat 0 center;
 	background-size: cover;
+	background-position: center !important;
 	background-attachment: fixed; /* фиксируем фон */
 }
 
@@ -1936,4 +1950,8 @@ img {
 @keyframes spin {
     0% { transform: translate(-50%, -50%) rotate(0deg); }
     100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+#canvas-container{
+  text-align: center;
 }

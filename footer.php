@@ -64,7 +64,7 @@ include_once 'conf/constants.php';
 
                 <p class="c-details">
                     <span>Mail:</span> <a href="mailto:<?= $email ?>" title=""><?= $email ?></a><br >
-                    <span>Tel:</span> <?= $tel ?>  <br ><span></span> <?= $tel2 ?>
+                    <span>Tel:</span> <?= $tel3 ?>  <br ><span></span> <?= $tel ?><br ><span></span> <?= $tel2 ?>
                 </p>
             </div>
         </div>

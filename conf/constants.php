@@ -2,6 +2,7 @@
 
 $tel = '+99312211202';
 $tel2 = '+99361827740';
+$tel3 = '+99371768333';
 $email = 'kamiltour.tm@gmail.com';
 $facebook = 'kamilsyyahat';
 $tiktok = '@kamilsyyahat ';

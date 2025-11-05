@@ -19,6 +19,8 @@ Biz kömek etmäge taýýar.
 Telefon, e-poçta ýa-da aşakdaky aragatnaşyk formasy arkaly bize ýüz tutup bilersiňiz.
 Toparymyz iň gysga wagtda size jogap berer.',
 
+    'reviews' => 'Müşderilerimiz biziň hakda näme pikirde?',
+
 
 
  //prides
@@ -50,6 +52,8 @@ Toparymyz iň gysga wagtda size jogap berer.',
     //slider
     'slider_title1' => 'Türkmenistany açyň',
     'slider_text1'  => 'Kämil syýahat hakykatdanam özboluşly we gözel syýahat tejribesini hödürleýär, täsin tebigy täsinlikleri ak mermerden gurlan beýik binagärlik we müňýyllyk taryh bilen utgaşdyrýar.',
+    'slider_title2' => 'Älemiň syýahatlaryna açyk ýol — Kämil syýahat bilen',
+    'slider_text2'  => 'Tropik kenarlar, gadymy ybadathanalary ýa-da häzirki zaman şäherleri bolsun, Kämil syýahat Türkmenistandan daşyndaky dünýäni aňsatlyk, amatlyk we ýatdan çykmajak täsirler bilen öwrenmäge kömek edýär.',
 
     //services
     'ashgabat' => 'Aşgabat: Ak mermerli şäher',
@@ -65,9 +69,25 @@ Toparymyz iň gysga wagtda size jogap berer.',
     'lebap' => 'Lebap: Gündogar ufgy',
     'lebap_description' => 'Köýtendag daglaryndaky dinozawrlaryň yzlary hem-de Gaynarbaba köliniň şypaly suwlary sizi älemiň çäksizligi bilen baglanyşdyrar.',
 
+    //motiv
+    'rehome_title' => 'Biz seni dünýäniň iň ajaýyp ýerlerine alyp bararys',
+    'rehome_text' => 'Kämil syýahat bilen syýahat etmek, diňe bir ýerden başga ýere gitmek däl, eýsem täze medeniýetleri öwrenmek, täsin tagamlary synap görmek we ýatdan çykmajak tejribeleri döretmekdir. Biziň hünärmen toparymyz siziň islegleriňize laýyk gelýän ýörite syýahatlary gurar we her ädimde size goldaw berer.',
 
     //our tours
     'our_tours' => 'Biziň syýahatlarymyz',
+
+    'about_us_text' => '<strong>Kamil Syýahat</strong> — bu diňe bir syýahatçylyk kompaniýasy däl.
+                        Bu Watanymyzyň gözelligini dünýä tanatmak isleýän syýahatçylygy söýýän hünärmenleriň toparydyr.
+                                                <br/>
+                        Biz syýahatçylara Türkmenistanyň ähli künjeklerine — gadymy Merv we Nusa şäherlerinden başlap, ajaýyp Garagum çöllerine, owadan Köpetdag daglaryna çenli syýahatlary hödürleýäris.
+                        Her bir gezelenjimiz aýratynlykda taýýarlanylan bolup, türkmen halkynyň myhmansöýerligi, taryhy we medeniýeti bilen baýlaşdyrylýar.
+                                                <br/>
+                        Biziň toparymyz tejribeli gollanmalardan, sürüjilerden we hyzmatdaşy hotellerden ybarat. Maksadymyz — myhmanlarymyzyň rahatlygyny, howpsuzlygyny we ýatdan çykmajak täsirlerini üpjün etmekdir.
+                        Biz isleýäris, her bir myhman ýurdumyzdan diňe suraty däl-de, kalbynyň bir böleginde Türkmenistanyň ruhuny alyp gitsin.
+                                                <br/>
+                        <strong>Biziň maksadymyz</strong> — adamlary ýurdumyzyň baý taryhy we häzirki ösüşi bilen tanyşdyrmak, syýahatyň üsti bilen ylham bermekdir.
+                                                <br/>
+                        <strong>Kamil Syýahat</strong> — Türkmenistanyň ýüregine barýan ýoluňyzdaky ygtybarly ýoldaşyňyz!',
 
     'our_prides' => 'Milli däp-dessurlar we halkyň buýsanjy',
     'prides_subtitle' => 'Türkmenistanyň baý medeni mirasy bilen tanyşyň — halkymyzyň buýsanjy bolan gadymy däp-dessurlary, sungaty we nyşanlary.',

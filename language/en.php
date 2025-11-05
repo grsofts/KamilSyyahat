@@ -17,6 +17,8 @@ $lang = [
 Have questions, suggestions, or partnership ideas? We’re here to help.
 You can reach us via phone, email, or by filling out the contact form below.
 Our team will respond as soon as possible.',
+
+    'reviews' => 'What do our clients think about us?',
     
      //prides
     'pride_alabay' => 'Alabay (Turkmen Shepherd Dog)', //1
@@ -48,6 +50,9 @@ Our team will respond as soon as possible.',
     //slider
     'slider_title1' => 'Discover Turkmenistan',
     'slider_text1'  => 'Kämil syýahat offers a truly unique and visually stunning travel experience, blending spectacular natural wonders with grand, white-marble architecture and millennia of history',
+    'slider_title2' => 'Your Gateway to Global Adventures',
+    'slider_text2'  => 'Whether it’s tropical beaches, ancient temples, or modern cities, Kämil syýahat helps you explore the world beyond Turkmenistan — with ease, comfort, and unforgettable memories.',
+
 
 
     //services
@@ -64,8 +69,26 @@ Our team will respond as soon as possible.',
     'lebap' => 'Lebap: The Eastern Horizon',
     'lebap_description' => 'Koyten Mountains with Dinosaur steps on it, healing waters of the Gaynarbaba lake made you feel connected with endless univers',
 
+    //motiv
+    'rehome_title' => 'We will take you to the most amazing places in the world',
+    'rehome_text' => 'Traveling with Kämil syýahat is not just about going from one place to another, but about exploring new cultures, tasting exotic flavors, and creating unforgettable experiences. Our team of experts will design customized trips that suit your preferences and provide support every step of the way.',
+
     //our tours
     'our_tours' => 'Our Tours',
+
+
+
+    'about_us_text' => '<strong>Kamil Syýahat</strong> is more than just a travel company —
+                        it’s a passionate team dedicated to sharing the beauty, culture, and spirit of Turkmenistan with the world.
+                        <br/>
+                        We offer guided tours and tailor-made journeys across the country — from the ancient cities of Merv and Nisa to the golden dunes of the Karakum Desert and the scenic Kopetdag Mountains.
+                        Each trip is carefully designed to combine comfort, discovery, and authentic local experiences.
+                        <br/>
+                        Our professional guides, drivers, and partners work together to ensure safety, comfort, and unforgettable memories.
+                        We want every guest to leave Turkmenistan not only with photos, but with stories and emotions that last a lifetime.
+                        <br/>
+                        <strong>Our mission</strong> is to inspire people to explore Turkmenistan — its timeless heritage and modern transformation.
+                        Because every journey with <strong>Kamil Syýahat</strong> is more than travel — it’s a heartfelt experience.',
 
 
     'our_prides' => 'Traditions and Pride of the Nation',

@@ -46,6 +46,7 @@ include_once 'conf/constants.php';
 					<ul class="contact-info" style="width:fit-content">
 						<li style="display: flex; align-items: center; gap: 10px;">
 							<i class="bi bi-telephone-fill text-success" style="font-size: 2em;"></i>
+							<?= $tel3 ?>
 							<?= $tel ?>
 							<?= $tel2 ?>
 						</li>
