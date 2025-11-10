@@ -26,7 +26,12 @@
                 <li class="<?= $page === 'tours' ? 'active' : '' ?>">
                     <a href="tours" title="Tours"><span data-hover="<?= $lang['tours'] ?>"><?= $lang['tours'] ?></span></a>
                 </li>
-                
+                <!-- <li class="<?= $page === 'hotels' ? 'active' : '' ?>">
+                    <a href="hotels" title="Hotels"><span data-hover="<?= $lang['hotels'] ?>"><?= $lang['hotels'] ?></span></a>
+                </li> -->
+                <li class="<?= $page === 'gallery' ? 'active' : '' ?>">
+                    <a href="gallery" title="Gallery"><span data-hover="<?= $lang['gallery'] ?>"><?= $lang['gallery'] ?></span></a>
+                </li>
                 <li class="<?= $page === 'about' ? 'active' : '' ?>">
                     <a href="about" title="About us"><span data-hover="<?= $lang['about'] ?>"><?= $lang['about'] ?></span></a>
                 </li>
@@ -53,6 +58,7 @@
                 <li class="<?= $page === 'contacts' ? 'active' : '' ?>">
                     <a href="contacts" title="Contact us"><span data-hover="<?= $lang['contacts'] ?>"><?= $lang['contacts'] ?></span></a>
                 </li>
+                
                 <li class="purchase-btn">
                     <!-- <form method="get" action="index.html">
                         <button type="submit" class="btn btn-default"><?= $lang['purchase_theme'] ?></button>
@@ -62,7 +68,7 @@
                 <li class="dropdown" style="cursor: pointer;">
                      <a class="dropdown-toggle" data-toggle="dropdown"><span data-hover="<?= $lang['language'] ?>">
                         <?= $l ==='en' ? '<img src="assets/us.png" height="24" alt="English" />' : ($l === 'ru' ? '<img src="assets/ru.png" height="24" alt="Russian" />' : '<img src="assets/tm.png" height="24" alt="Turkmen" />') ?>
-                        <?= $l ==='en' ? 'English' : ($l ==='ru' ? 'Русский' : 'Türkmençe') ?>
+                        <?= $l ==='en' ? 'English' : ($l ==='ru' ? 'Русский' : 'Türkmen') ?>
                      </span> <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li class="<?= $l === 'en' ? 'active' : '' ?>">
@@ -72,7 +78,7 @@
                             <a href="?lang=ru" title="Russian"><img src="assets/ru.png" height="24" alt="Russian" /> Русский</a>
                         </li>
                         <li class="<?= $l === 'tm' ? 'active' : '' ?>">
-                            <a href="?lang=tm" title="Turkmen"><img src="assets/tm.png" height="24" alt="Turkmen" /> Türkmençe</a>
+                            <a href="?lang=tm" title="Turkmen"><img src="assets/tm.png" height="24" alt="Turkmen" /> Türkmen</a>
                         </li>
                     </ul>
                 </li>

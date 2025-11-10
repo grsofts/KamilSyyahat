@@ -2,15 +2,17 @@
 
 $lang = [
     'home' => 'Esasy',
-    'about' => 'Biz hakynda',
-    'contacts' => 'Kontaktlar',
+    'about' => 'Biz barada',
+    'contacts' => 'Kontakt',
     'feedback' => 'Jan galdyrmak',
     'tours' => 'Syýahatlar',
     'prices' => 'Bahalar',
     'services' => 'Hyzmatlar',
     'language' => 'Dil',
     'learn_more' => 'Giňişleýin',
-    'about_us' => 'Biz hakynda',
+    'about_us' => 'Biz barada',
+    'hotels' => 'Myhmanhanalar',
+    'gallery' => 'Galareýa',
     'about_us_description' => 'Siziň kämil syýahatyňyz şu ýerde başlaýar! Biz diňe syýahatlary satmaýarys, ýadygärlikleri döredýäris. Resminamalary we myhmanhanalary saýlamak bilen    baglanyşykly aladalary unudyň. Diňe arzuwyňyzy aýdyp beriň, biz galan ähli zady öz üstümize alarys.',
     'contact_us' => 'Biziň bilen habarlaşyň',
     'contact_us_description' => 'Biziň bilen habarlaşmak aňsat!

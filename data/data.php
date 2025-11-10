@@ -9,7 +9,7 @@ function GetTours(){
     global $l;
     $sql = "SELECT t.id, t.slug, t.image, tt.title FROM tours t 
             INNER JOIN tour_translations tt ON t.id = tt.tour_id 
-            WHERE tt.lang = :lang";
+            WHERE tt.lang = :lang and t.active = 'Y'";
 
     $stmt = $pdo->prepare($sql);
     $stmt->execute(['lang' => $l]);

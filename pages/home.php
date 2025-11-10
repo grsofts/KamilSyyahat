@@ -302,7 +302,7 @@ document.addEventListener("DOMContentLoaded", function() {
         data.forEach(tour => {
             const html = `
                 <div>
-                    <a data-fancybox="gallery" target="_self" data-caption="${tour.title}" href="images/${tour.image}" title="${tour.title}" data-hover="${tour.title}" >
+                    <a href="tour?s=${tour.slug}" target="_self" title="${tour.title}" data-hover="${tour.title}" >
                         <img src="images/${tour.image}" alt="${tour.title}" />
                     </a>
                 </div>

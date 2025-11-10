@@ -14,23 +14,23 @@ $token = $_SESSION['ajax_token'];
 <div class="container"  style="padding: 30px 0;">
     <h1 id="tour_title"></h1>
 
-    <!-- Slider -->
-    <div id="home_carousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol id="carousel-indicators" class="carousel-indicators"></ol> 
-        
-        <!-- Wrapper for slides -->
-        <div id="carousel-inner" class="carousel-inner" ></div>
+<!-- Slider -->
+<div id="home_carousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol id="carousel-indicators" class="carousel-indicators"></ol> 
+    
+    <!-- Wrapper for slides -->
+    <div id="carousel-inner" class="carousel-inner" ></div>
 
-        <!-- Controls -->
-        <a class="left carousel-control" href="#home_carousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="right carousel-control" href="#home_carousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
-    </div>
-    <!-- Slider end -->
+    <!-- Controls -->
+    <a class="left carousel-control" href="#home_carousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#home_carousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+<!-- Slider end -->
 
     <div id="loader-wrapper" style="position: relative; display:flex; justify-content:center; align-items:center; min-height: 200px;">
             <img src="assets/loading1.gif" width="120" height="120" alt="Loading..." class="loader-dog" />
