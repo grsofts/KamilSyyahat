@@ -37,7 +37,10 @@ $token = $_SESSION['ajax_token'];
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     const AJAX_TOKEN = "<?= $token ?>";
-    fetch("data/get-tours.php?lang=<?= $l ?>", {
+    fetch("data/get-tours.php?lang=<?= $l ?>", 
+    {
+         method: "POST",
+        body: JSON.stringify({ ajax_token: "<?= $token ?>" }),
         headers: { 'X-Requested-With': 'XMLHttpRequest', 'X-Ajax-Token': AJAX_TOKEN } // <-- важный заголовок
     })
     .then(res => {

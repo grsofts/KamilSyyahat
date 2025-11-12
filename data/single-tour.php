@@ -1,8 +1,7 @@
 <?php
 session_start();
-
-$headers = getallheaders();
-$ajaxToken = $headers['X-Ajax-Token'] ?? null;
+$data = json_decode(file_get_contents("php://input"), true);
+$ajaxToken = $data['ajax_token'] ?? null;
 
 if (!isset($_SESSION['ajax_token']) || $ajaxToken !== $_SESSION['ajax_token']) {
     http_response_code(403);

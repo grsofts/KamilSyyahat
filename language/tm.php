@@ -14,8 +14,8 @@ $lang = [
     'hotels' => 'Myhmanhanalar',
     'gallery' => 'Galareýa',
     'about_us_description' => 'Siziň kämil syýahatyňyz şu ýerde başlaýar! Biz diňe syýahatlary satmaýarys, ýadygärlikleri döredýäris. Resminamalary we myhmanhanalary saýlamak bilen    baglanyşykly aladalary unudyň. Diňe arzuwyňyzy aýdyp beriň, biz galan ähli zady öz üstümize alarys.',
-    'contact_us' => 'Biziň bilen habarlaşyň',
-    'contact_us_description' => 'Biziň bilen habarlaşmak aňsat!
+    'contact_us' => 'Biz bilen habarlaşyň',
+    'contact_us_description' => 'Biz bilen habarlaşmak aňsat!
 Soraglaryňyz, teklipleriňiz ýa-da hyzmatdaşlyk pikiriňiz barmy?
 Biz kömek etmäge taýýar.
 Telefon, e-poçta ýa-da aşakdaky aragatnaşyk formasy arkaly bize ýüz tutup bilersiňiz.
@@ -101,7 +101,7 @@ Toparymyz iň gysga wagtda size jogap berer.',
     'want_you_button' => 'Habarlaşmak',
     'footer_about_title' => 'Biz hakynda',
     'pages' => 'Sahypalar',
-    'footer_about' => "Biz bilen syýahat ediň! Biz ýatdan çykmajak taryhy döredýäris we size dünýäni açýarys! Täsirli sargytlardan dynç alyşlara çenli - hemmeler üçin syýahatlarymyz bar!",
+    'footer_about' => "Biz bilen syýahat ediň! Biz ýatdan çykmajak ýatlamalary döredýäris we size älemi açýarys! Täsirli sargytlardan dynç alyşlara çenli - hemmeler üçin syýahatlarymyz bar!",
     'we_are_social' => "Biz sosial ulgamlarda",
     'we_are_social_description' => "Biziň bilen aragatnaşykda boluň!
 Sosial ulgamlarda bizi yzarlap bilersiňiz ýa-da islendik wagtda habarlaşyp bilersiňiz — siziň ýolagçylyk meýilnamaňyzy gurmaga taýýar.",

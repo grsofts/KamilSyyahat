@@ -129,6 +129,8 @@ function renderInfo(info, title, infoContainer) {
 
 async function getTourImagesBySlug(slug, token) {
     const res = await fetch(`data/images.php?slug=${encodeURIComponent(slug)}`, {
+        method: "POST",
+        body: JSON.stringify({ ajax_token: "<?= $token ?>" }),
         headers: {
             "X-Requested-With": "XMLHttpRequest",
             "X-Ajax-Token": token
@@ -140,6 +142,8 @@ async function getTourImagesBySlug(slug, token) {
 
 async function getTourInfoBySlug(slug, token) {
     const res = await fetch(`data/single-tour.php?s=${encodeURIComponent(slug)}&lang=<?= $l ?>`, {
+        method: "POST",
+        body: JSON.stringify({ ajax_token: "<?= $token ?>" }),
         headers: {
             "X-Requested-With": "XMLHttpRequest",
             "X-Ajax-Token": token

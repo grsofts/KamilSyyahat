@@ -51,7 +51,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-4 col3">
-            <a title="<?= $lang['ashgabat'] ?>" class="roundal" id="kennel"></a>
+            <a  data-gallery="asgabat" title="<?= $lang['ashgabat'] ?>" class="roundal" id="kennel"></a>
             <h3><?= $lang['ashgabat'] ?></h3>
             <p class="truncate-2"><?= $lang['ashgabat_description'] ?></p>
             <!-- <form method="get" action="services-single.html">
@@ -75,7 +75,7 @@
             </form> -->
         </div>
         <div class="col-md-4 col3">
-            <a title="<?= $lang['dashoguz'] ?>" class="roundal" id="walking"></a>
+            <a data-gallery="dasoguz" title="<?= $lang['dashoguz'] ?>" class="roundal" id="walking"></a>
             <h3><?= $lang['dashoguz'] ?></h3>
             <p class="truncate-2"><?= $lang['dashoguz_description'] ?></p>
              <!-- <form method="get" action="services-single.html">
@@ -83,12 +83,9 @@
             </form> -->
         </div>
         <div class="col-md-4 col3">
-            <a title="<?= $lang['mary'] ?>" class="roundal" id="advice"></a>
+            <a data-gallery="mary" title="<?= $lang['mary'] ?>" class="roundal" id="advice"></a>
             <h3><?= $lang['mary'] ?></h3>
             <p class="truncate-2"><?= $lang['mary_description'] ?></p>
-             <!-- <form method="get" action="services-single.html">
-                <button type="submit" class="btn btn-default btn-green"><?= $lang['learn_more'] ?></button>
-            </form> -->
         </div>
         <div class="col-md-4 col3">
             <a title="<?= $lang['lebap'] ?>" class="roundal" id="play"></a>
@@ -290,6 +287,8 @@
 document.addEventListener("DOMContentLoaded", function() {
     const AJAX_TOKEN = "<?= $token ?>";
     fetch("data/get-tours.php?lang=<?= $l ?>", {
+        method: "POST",
+        body: JSON.stringify({ ajax_token: "<?= $token ?>" }),
         headers: { 'X-Requested-With': 'XMLHttpRequest', 'X-Ajax-Token': AJAX_TOKEN } // <-- важный заголовок
     })
     .then(res => {
@@ -471,6 +470,204 @@ const galleries = {
         caption: "<?= $lang['pride_festivals_description'] ?>",
         },
     ],
+
+    asgabat: [
+        {
+            src: "images/upload/asgabat/1.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/asgabat/2.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/gypjak.jpg",
+            caption: "",
+        },
+        {
+            src: "images/slider1.jpg",
+            caption: "",
+        },
+    ],
+
+    mary: [
+        {
+            src: "images/upload/mary/1.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/mary/2.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/mary/3.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/mary/4.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/mary/5.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/mary/6.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/mary/7.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/mary/8.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/mary/9.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/mary/10.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/mary/11.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/mary/12.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/mary/13.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/mary/14.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/mary/15.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/mary/16.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/mary/17.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/mary/18.jpg",
+            caption: "",
+        }
+
+    ],
+
+    dasoguz: [
+        {
+            src: "images/upload/dasoguz/1.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/2.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/3.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/4.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/5.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/6.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/7.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/8.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/9.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/10.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/11.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/12.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/13.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/14.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/15.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/16.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/17.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/18.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/19.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/20.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/21.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/22.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/23.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/24.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/koneurgench.jpg",
+            caption: "",
+        }
+    ]
 };
 
 const fancyOptions = {
@@ -495,57 +692,4 @@ document.querySelectorAll("[data-gallery]").forEach((el) => {
     }
   });
 });
-
-      document.getElementById("kennel").addEventListener("click", () => {
-        Fancybox.show(
-          [
-            {
-              src: "https://lipsum.app/id/1/1800x1200",
-              caption: "Sample image #1",
-              thumbSrc: "https://lipsum.app/id/1/150x100",
-              thumbAlt: "My custom description #1",
-              thumbClass: "my_custom_thumb_class",
-            },
-            {
-              src: "https://lipsum.app/id/2/1800x1200",
-              caption: "Sample image #2",
-              thumbSrc: "https://lipsum.app/id/2/150x100",
-              thumbAlt: "My custom description #2",
-              thumbClass: "my_custom_thumb_class",
-            },
-            {
-              src: "https://lipsum.app/id/3/1800x1200",
-              caption: "Sample image #3",
-              thumbSrc: "https://lipsum.app/id/3/150x100",
-              thumbAlt: "My custom description #3",
-              thumbClass: "my_custom_thumb_class",
-            },
-          ],
-          {
-            Hash: false,
-            backFocus: false,
-            Toolbar: {
-                display: {
-                    left: ["infobar"],
-                    middle: [
-                        "zoomIn",
-                        "zoomOut",
-                        "rotateCCW",
-                        "rotateCW",
-                    ],
-                    right: ["close"],
-                },
-            }
-          }
-        );
-      });
-
     </script>
-
-<!-- 
-
-<div>
-                    <a href="images/${tour.image}" title="${tour.title}" data-hover="${tour.title}" data-toggle="lightbox" class="lightbox">
-                        <img src="images/${tour.image}" style="width: 100%; height: 100%;object-fit: cover;"  alt="${tour.title}" />
-                    </a>
-                </div> -->

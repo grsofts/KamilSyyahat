@@ -57,6 +57,9 @@ include_once 'conf/constants.php';
 						<li class="" style="display: flex; align-items: center; gap: 10px;">
 							<i class="bi bi-facebook text-primary" style="font-size: 2em;"></i> <?= $facebook ?> <br>
 						</li>
+						<li class="" style="display: flex; align-items: center; gap: 10px;">
+							<i class="bi bi-whatsapp text-success" style="font-size: 2em;"></i> <?= $tel2 ?> <br>
+						</li>
 						<li  style="display: flex; align-items: center; gap: 10px;">
 							<i class="bi bi-envelope-fill text-warning" style="font-size: 2em;"></i>
 							<?= $email ?>

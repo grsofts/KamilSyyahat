@@ -19,7 +19,7 @@ include_once 'conf/constants.php';
 <div class="staff" data-stellar-background-ratio=".3">
     <div class="container">
         <div class="row">
-            <div class="col-md-3 member">
+            <!-- <div class="col-md-3 member">
                 <div data-stellar-ratio="1.2" data-stellar-vertical-offset="150" data-stellar-horizontal-offset="0">
                     <span>
                         <a href="#" class="twitter"></a>
@@ -62,7 +62,7 @@ include_once 'conf/constants.php';
                     <h4>Jane Doe</h4>
                     <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram.</p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </div> 

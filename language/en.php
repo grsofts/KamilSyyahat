@@ -17,7 +17,7 @@ $lang = [
     'contact_us' => 'Contact us',
     'contact_us_description' => 'Get in touch with us easily!
 Have questions, suggestions, or partnership ideas? We’re here to help.
-You can reach us via phone, email, or by filling out the contact form below.
+You can reach us phone number, email, or by filling out the contact form below.
 Our team will respond as soon as possible.',
 
     'reviews' => 'What do our clients think about us?',
