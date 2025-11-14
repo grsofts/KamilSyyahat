@@ -56,20 +56,21 @@ document.querySelectorAll('[data-fancybox="gallery"]').forEach(el => {
             e.preventDefault();
         });
     });
-    Fancybox.bind('[data-fancybox="gallery"]', {
-        Hash: false,
-        backFocus: false,
-        Toolbar: {
-            display: {
-                left: ["infobar"],
-                middle: [
-                    "zoomIn",
-                    "zoomOut",
-                    "rotateCCW",
-                    "rotateCW",
-                ],
-                right: ["close"],
-            },
-        }
-    });
+    
+Fancybox.bind('[data-fancybox="gallery"]', {
+    Carousel: {
+      Toolbar: {
+        display: {
+            left: ["infobar"],
+            middle: [
+                "zoomIn",
+                "zoomOut",
+                "rotateCCW",
+                "rotateCW",
+            ],
+            right: ["autoplay", "thumbs", "close"],
+        },
+    }
+    },
+});
 

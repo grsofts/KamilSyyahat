@@ -373,6 +373,7 @@ img {
 	animation:         SlideBGbtn 1.5s normal; /* IE 10+ */
 }
 
+
 #home_carousel .btn {
 	border: 2px solid #fff;
 	background: transparent;
@@ -725,7 +726,7 @@ img {
 /**  STAFF BLOCK  **/
 
 .staff {
-	background: #363b3f url("../images/night_ashgabat.png") 0 0 no-repeat;
+	background: #363b3f url("../images/upload/derweze_full.jpg") 0 0 no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	padding: 70px 0;
@@ -1736,7 +1737,9 @@ img {
 	.nav li a {
 		padding: 0 10px;
 	}
-	
+	.navbar h1 a.navbar-brand {
+		font-size: 28px;
+	}
 	
 	#home_carousel .carousel-caption h2 {
 		font-size: 40px;
@@ -1770,10 +1773,33 @@ img {
 	
 }
 
+@media  (max-width: 991px) {
+	
+	.navbar h1 a.navbar-brand {
+		font-size: 24px;
+	}
+	
+	#home_carousel .carousel-caption h2 {
+		font-size: 36px;
+	}
+	
+	#home_carousel .carousel-caption p {
+		font-size: 16px;
+	}
+	
+	.contentpage #c-carousel .featured {
+		height: 270px;
+	}
+}
+
 @media (max-width: 767px) {
 
 	.navbar h1 {
 		margin-left: 15px;
+	}
+
+	.navbar h1 a.navbar-brand {
+		font-size: 22px;
 	}
 	
 	.navbar-nav {
@@ -1789,7 +1815,6 @@ img {
 	.navbar-toggle {
 		margin-top: 20px;
 	}
-	
 	.navbar-collapse.collapse.in, .navbar-collapse.collapsing {
 		padding-left: 0;
 		padding-right: 0;

@@ -15,6 +15,8 @@
     <div class="carousel-inner" id="carousel-home">
         <div class="item active">
             <img src="images/slider1.jpg" alt="" />
+            <!-- <img src="images/travel_turkmen.jpeg" alt="" /> -->
+            <!-- <img src="images/upload/derweze_full.jpg" alt="" /> -->
             <div class="carousel-caption">
                 <h2 style="font-weight:700;"><?= $lang["slider_title1"] ?></h2>
                 <p><?= $lang["slider_text1"] ?></p>
@@ -27,7 +29,8 @@
 
 
         <div class="item">
-            <img src="images/travel2.jpg" alt="" />
+            <!-- <img src="images/travel2.jpg" alt="" /> -->
+            <img src="images/slider_world.webp" alt="" />
             <div class="carousel-caption">
                 <h2 style="font-weight:700;"><?= $lang["slider_title2"] ?></h2>
                 <p><?= $lang["slider_text2"] ?></p>
@@ -59,7 +62,7 @@
             </form> -->
         </div>
         <div class="col-md-4 col3">
-            <a title="<?= $lang['akhal'] ?>" class="roundal" id="grooming"></a>
+            <a data-gallery="ahal" title="<?= $lang['akhal'] ?>" class="roundal" id="grooming"></a>
             <h3><?= $lang['akhal'] ?></h3>
             <p class="truncate-2"><?= $lang['akhal_description'] ?></p>
             <!-- <form method="get" action="services-single.html">
@@ -67,7 +70,7 @@
             </form> -->
         </div>
         <div class="col-md-4 col3">
-            <a title="<?= $lang['balkan'] ?>" class="roundal" id="adoption"></a>
+            <a data-gallery="balkan" title="<?= $lang['balkan'] ?>" class="roundal" id="adoption"></a>
             <h3><?= $lang['balkan'] ?></h3>
             <p class="truncate-2"><?= $lang['balkan_description'] ?></p>
              <!-- <form method="get" action="services-single.html">
@@ -485,6 +488,26 @@ const galleries = {
             caption: "",
         },
         {
+            src: "images/upload/asgabat/3.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/asgabat/4.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/asgabat/5.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/asgabat/6.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/asgabat/7.jpg",
+            caption: "",
+        },
+        {
             src: "images/slider1.jpg",
             caption: "",
         },
@@ -565,7 +588,18 @@ const galleries = {
         }
 
     ],
-
+    balkan:[
+        {
+            src: "images/upload/balkan/1.jpg",
+            caption: ""
+        }
+    ],
+    ahal: [
+        {
+            src: "images/upload/ahal/1.webp",
+            caption: "Nohur"
+        }
+    ],
     dasoguz: [
         {
             src: "images/upload/dasoguz/1.jpg",
@@ -665,6 +699,10 @@ const galleries = {
         },
         {
             src: "images/upload/koneurgench.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/25.webp",
             caption: "",
         }
     ]

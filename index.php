@@ -23,10 +23,14 @@ $token = $_SESSION['ajax_token'];
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Kamil syýahat</title>
-  <link rel="shortcut icon" type="image/png" href="assets/logoks.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/logoks.png">
-  <link rel="apple-touch-icon" href="assets/logoks.png">
+	<title>Kamil syýahat — Туристическая компания</title>
+    <meta name="description" content="Оформление виз, авиабилеты, бронирование отелей. Туркменистан. Пр. А. Ниязова.">
+    <meta property="og:title" content="Kamil syýahat — Туристическая компания">
+    <meta property="og:description" content="Оформление виз, авиабилеты, бронирование отелей">
+
+	<link rel="shortcut icon" type="image/png" href="assets/logoks.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/logoks.png">
+	<link rel="apple-touch-icon" href="assets/logoks.png">
 
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">

@@ -21,25 +21,27 @@ You can reach us phone number, email, or by filling out the contact form below.
 Our team will respond as soon as possible.',
 
     'reviews' => 'What do our clients think about us?',
+
+    'gallery_description' => 'Explore the beauty of Turkmenistan through our curated gallery. From the stunning white marble architecture of Ashgabat to the vast golden dunes of the Karakum Desert, each image tells a story of a land rich in culture and natural wonders. Discover the vibrant traditions, majestic horses, and intricate carpets that define Turkmen heritage. Let these visuals inspire your next adventure with Kämil syýahat.',
     
      //prides
     'pride_alabay' => 'Alabay (Turkmen Shepherd Dog)', //1
     'pride_alabay_description' => 'The Alabay is not just a dog, it is a symbol of Turkmenistan. These majestic animals are known for their strength, loyalty, and intelligence. They have guarded nomads for centuries and continue to be faithful companions and protectors.',
-    'pride_ahalteke' => 'Akhal‑Teke (Turkmen "Golden" Horse)', //2
-    'pride_ahalteke_description' => 'The Akhal‑Teke is the pride of Turkmenistan and one of the oldest horse breeds in the world. Known for their speed, endurance, and unique metallic sheen of their coat, these horses has a great importance in the culture and history of the country.',
+    'pride_ahalteke' => 'Akhal‑Teke Horses (Turkmen "Golden" Horse)', //2
+    'pride_ahalteke_description' => 'The Akhal‑Teke Horses are the pride of Turkmenistan and one of the oldest horse breeds in the world. Known for their speed, endurance, and unique metallic sheen of their coat, these horses has a great importance in the culture and history of the country.',
     'pride_carpets' => 'Turkmen Carpets', //3
     'pride_carpets_description' => 'Turkmen carpets are not just household items, they are works of art. Each carpet tells its own story, reflecting the rich culture and traditions of the people. They are known for their high quality and unique patterns.',
-    'pride_kitchen' => 'Turkmen Cuisine', //4
-    'pride_kitchen_description' => 'Turkmen cuisine is a vibrant blend of flavors and aromas. It is based on fresh ingredients and traditional recipes passed down through generations. Try plov, dograma, manti, and other dishes that will delight you with their taste and variety.',
+    'pride_kitchen' => 'Turkmen Dishes', //4
+    'pride_kitchen_description' => 'Turkmen Dishes is a vibrant blend of flavors and aromas. It is based on fresh ingredients and traditional recipes passed down through generations. Try plov, dograma, manti, and other dishes that will delight you with their taste and variety.',
     'pride_kushtdepdi' => 'Kushtdepdi (Traditional Turkmen Dwelling)', //5
     'pride_kushtdepdi_description' => 'The Kushtdepdi dance and other traditional art forms preserve the cultural memory of the people. These traditions are passed down from generation to generation, maintaining the unique heritage of Turkmenistan.',
     'pride_ornaments' => 'Ornaments and Embroidery (Traditional Decorations)', //6
     'pride_ornaments_description' => 'Traditional Turkmen ornaments and embroidery are an integral part of the country\'s cultural heritage. They reflect the rich history and unique style of the Turkmen people.',
     'pride_dutar' => 'Dutar (Traditional Musical Instrument)', //7
     'pride_dutar_description' => 'The Dutar is a traditional Turkmen musical instrument with two strings. It symbolizes the rich musical culture of the country and is used in folk music and dances.',
-    'pride_closes' => 'Turkmen National Clothing', //8
-    'pride_closes_description' => 'Turkmen national clothing is a vibrant reflection of the country\'s cultural heritage. It is characterized by its unique patterns, bright colors, and traditional elements that are passed down from generation to generation.',
-    'pride_festivals' => 'Turkmen Holidays and Festivals', //9
+    'pride_closes' => 'Turkmen National Clothes', //8
+    'pride_closes_description' => 'Turkmen national clothes is a vibrant reflection of the country\'s cultural heritage. It is characterized by its unique patterns, bright colors, and traditional elements that are passed down from generation to generation.',
+    'pride_festivals' => 'Turkmen Holidays', //9
     'pride_festivals_description' => 'Holidays unite the people — for example, Turkmen Horse Day, Turkmen Сarpet Day, the spring holiday Nowruz, and others. These events reflect the rich culture and traditions of Turkmenistan.',
 
 
@@ -48,6 +50,11 @@ Our team will respond as soon as possible.',
     'your_email' => 'Your email',
     'your_message' => 'Your message',
     'send_message' => 'Send message',
+
+    'thanks' => 'Thanks!',
+    'sended_successfully' => 'Your message has been sent successfully. We will contact you as soon as possible.',
+    'error_sending' => 'An error occurred while sending your message. Please try again.',
+    'return_home_btn' => 'Return to home',
 
     //slider
     'slider_title1' => 'Discover Turkmenistan',
@@ -65,9 +72,9 @@ Our team will respond as soon as possible.',
     'balkan' => 'Balkan: The Mysterious West',
     'balkan_description' => 'The region is famous for its colorful landscapes between canyons and seas of the endless Karakum Desert.',
     'dashoguz' => 'Dashoguz: The Northern Gateway',
-    'dashoguz_description' => 'Welcome to the gates of hell, ancient city Kunya-Urgench west-side of Turkmenistan.',
+    'dashoguz_description' => 'Welcome to the gates of hell and to the ancient city Kunya-Urgench west-side of Turkmenistan.',
     'mary' => 'Mary: The Ancient Oasis',
-    'mary_description' => 'The Ancient Merv  “The Mother of in Hijaz is Mecca, while in Khrasan – Merv”',
+    'mary_description' => '“The Mother of cities in Hijaz- Mecca, in Khorasan - Merv”',
     'lebap' => 'Lebap: The Eastern Horizon',
     'lebap_description' => 'Koyten Mountains with Dinosaur steps on it, healing waters of the Gaynarbaba lake made you feel connected with endless univers',
 
@@ -104,8 +111,8 @@ Our team will respond as soon as possible.',
     'footer_about_title' => 'A little about us',
     'pages' => 'Pages',
     'footer_about' => "Travel with us! We create unforgettable experiences and open the world to you! From thrilling adventures to relaxing vacations - we have tours for everyone!",
-    'we_are_social' => "We are on social networks",
-    'we_are_social_description' => "Stay connected with us! You can reach out to us anytime - we are ready to help you plan your trip.",
+    'we_are_social' => "We are on social media",
+    'we_are_social_description' => "Stay with us! You can reach out to us anytime - we are ready to help you plan your trip.",
     ];
 
 
