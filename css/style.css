@@ -488,6 +488,7 @@ img {
 .truncate-2 {
   display: -webkit-box;
   -webkit-line-clamp: 2; /* ограничение на 2 строки */
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -803,6 +804,9 @@ img {
 
 .staff .member div span a:hover {
 	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
 }
 
 .staff .member div span a.facebook {
@@ -1055,7 +1059,7 @@ img {
 	opacity:.20; 
 	-webkit-transform: scale(1.3) rotate(7deg);
 	-moz-transform: scale(1.3) rotate(7deg);
-
+	transform: scale(1.3) rotate(7deg);
 }
 
 .adoption div .title {
@@ -1709,15 +1713,15 @@ img {
   0%   { opacity: 0; top: 50px; }
   100% { opacity: 1; top: 0; }
 }
-@-moz-keyframes Testimonials {
+@-moz-keyframes FadeIn {
   0%   { opacity: 0; top: 50px; }
   100% { opacity: 1; top: 0; }
 }
-@-o-keyframes Testimonials {
+@-o-keyframes FadeIn {
   0%   { opacity: 0; top: 50px; }
   100% { opacity: 1; top: 0; }
 }
-@keyframes Testimonials {
+@keyframes FadeIn {
   0%   { opacity: 0; top: 50px; }
   100% { opacity: 1; top: 0; }
 }

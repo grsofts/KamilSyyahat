@@ -37,9 +37,11 @@ include_once 'conf/constants.php';
 
 						
   						<!-- <div class="g-recaptcha" data-sitekey="6LfkmfUrAAAAAD1cY0NCjGROUWYfRiQaVg24Hbc7"></div> -->
-  						<div class="g-recaptcha" style="margin-bottom:10px" data-sitekey="6Ldji_YrAAAAAK-g7OMwqDR42sjr7gb5flzS-7Vz"></div>  
+  						<div class="g-recaptcha" style="margin-bottom:10px" data-sitekey="6Ldji_YrAAAAAK-g7OMwqDR42sjr7gb5flzS-7Vz"
+							data-callback="enableSubmit"
+         					data-expired-callback="disableSubmit"></div>  
 						<!-- 2nji -->
-						<button type="submit" class="btn btn-default btn-green"><?= $lang['send_message'] ?></button>
+						<button type="submit" class="btn btn-default btn-green"  id="submitBtn" disabled><?= $lang['send_message'] ?></button>
 					</form>
 				</div>
 				<div class="col-md-3">
@@ -98,6 +100,17 @@ include_once 'conf/constants.php';
 			</div>
 		</div>
 		<!-- Content end -->    
+<script>
+function enableSubmit() {
+    document.getElementById('submitBtn').disabled = false;
+}
 
+function disableSubmit() {
+    document.getElementById('submitBtn').disabled = true;
+}
+
+// На всякий случай заблокируем кнопку при загрузке страницы
+document.getElementById('submitBtn').disabled = true;
+</script>
 
 		<script src="https://www.google.com/recaptcha/api.js" async defer></script>

@@ -6,7 +6,6 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    //$secretKey = '6LfkmfUrAAAAAF9y37gmzN3f14et8-USJhe-bY1z'; // reCAPTCHA secret key
     $secretKey = '6Ldji_YrAAAAAOHWP6MJSeGQo4tfKS-AuOKUnb8F'; // reCAPTCHA secret key
     $responseKey = $_POST['g-recaptcha-response'];
     $userIP = $_SERVER['REMOTE_ADDR'];
@@ -14,25 +13,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Проверяем reCAPTCHA
      $verify = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$secretKey}&response={$responseKey}&remoteip={$userIP}");
      $captchaSuccess = json_decode($verify);
-
-// $url = "https://www.google.com/recaptcha/api/siteverify";
-
-// $data = [
-//     'secret' => $secretKey,
-//     'response' => $responseKey,
-//     'remoteip' => $userIP
-// ];
-
-// $ch = curl_init($url);
-
-// curl_setopt($ch, CURLOPT_POST, true);
-// curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
-// curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-
-// $response = curl_exec($ch);
-// curl_close($ch);
-
-// $captcha = json_decode($response);
     $ok = $captchaSuccess->success ?? false;
     if ($ok === true) {
         $name = htmlspecialchars($_POST['name']);
@@ -68,19 +48,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $mail->AltBody = "Name: {$name}\nEmail: {$email}\nMessage:\n{$message}";
 
             $mail->send();
-
-            //echo json_encode(['success' => true, 'message' => '✅ Message sent successfully!']);
+            $ok = true;
         } catch (Exception $e) {
-            echo json_encode(['success' => false, 'message' => "Mailer Error: {$mail->ErrorInfo}"]);
+            $ok = false;
         }
     } else {
-        //echo json_encode(['success' => false, 'message' => '❌ reCAPTCHA verification failed']);
+        $ok = false;
     }
 
     session_start();
     $_SESSION['allow_thanks'] = true;
-
-    header("Location: /thanks?success={$ok}");
+    $ok_str = $ok ? 'true' : 'false';
+    header("Location: /thanks?success={$ok_str}");
     exit;
 }
 ?>
