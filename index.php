@@ -10,8 +10,6 @@ $file = "pages/{$page}.php";
 $l = $_GET['lang'] ?? $_COOKIE['lang'] ?? 'en';
 require_once 'language/' . $l . '.php';
 
-
-
 if(!isset($_SESSION['ajax_token'])) {
     $_SESSION['ajax_token'] = bin2hex(random_bytes(32));
 }
