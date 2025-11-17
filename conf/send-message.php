@@ -1,6 +1,6 @@
 <?php
 
-require str_replace('conf', '', __DIR__) . 'vendor\autoload.php'; // PHPMailer через Composer
+require __DIR__ . '/../vendor/autoload.php'; // PHPMailer через Composer
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
