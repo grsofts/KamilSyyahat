@@ -1983,4 +1983,13 @@ img {
 
 #canvas-container{
   text-align: center;
+  width: 100%;
+    overflow: hidden; /* отрезает любые лишние пиксели */
+}
+
+
+#sineCanvas {
+    width: 100%;
+    height: auto;
+    display: block;
 }

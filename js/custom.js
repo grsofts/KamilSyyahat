@@ -96,10 +96,10 @@ function initCarouFredSel(){
 			},
 			pagination: '#pager',
             items: {
-				width: 400,
+				width: 420,
                 visible: { 
-					min: 3, 
-					max: 5 
+					min: 2, 
+					max: 6 
 				},
             }
         });

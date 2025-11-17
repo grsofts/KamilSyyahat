@@ -20,6 +20,8 @@
         xAxis = Math.floor(height / 2);
         yAxis = Math.floor(width / 4);
 
+        resizeCanvas();
+
         context.save();
         draw();
 
@@ -131,6 +133,24 @@
         context.drawImage(img, yAxis - 29  + offset , y - 16 );
         //context.arc(yAxis, y, 5, 0, 2*Math.PI, false);
         context.stroke();
+    }
+    window.addEventListener("resize", () => {
+        resizeCanvas();
+    });
+
+    function resizeCanvas() {
+        const canvas = document.getElementById("sineCanvas");
+        const parentWidth = canvas.parentElement.offsetWidth;
+
+        // устанавливаем реальные размеры холста
+        canvas.width = parentWidth;
+        canvas.height = 250; // если хочешь, тоже можно сделать пропорционально
+
+        width = canvas.width;
+        height = canvas.height;
+
+        xAxis = Math.floor(height / 2);
+        yAxis = Math.floor(width / 4);
     }
 
     init();
