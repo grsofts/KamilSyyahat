@@ -21,7 +21,7 @@
                     <a href="home" title="Home"><span data-hover="<?= $lang['home'] ?>"><?= $lang['home'] ?></span></a>
                 </li>
                 <li class="dropdown" style="cursor: pointer;">
-                    <a class="dropdown-toggle" data-toggle="dropdown"><span data-hover="<?= $lang['tours'] ?>"><?= $lang['tours'] ?></span><b class="caret"></b></a>
+                    <a class="dropdown-toggle" data-toggle="dropdown"><span data-hover="<?= $lang['services'] ?>"><?= $lang['services'] ?></span><b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="tours" class="<?= $page === 'tours' ? 'active' : '' ?>" title="Tours"><?= $lang['tours'] ?></a>
