@@ -6,6 +6,7 @@ $lang = [
     'contacts' => 'Kontakt',
     'feedback' => 'Jan galdyrmak',
     'tours' => 'Syýahatlar',
+    'outgoing' => 'Çykyş',
     'prices' => 'Bahalar',
     'services' => 'Hyzmatlar',
     'language' => 'Dil',
@@ -98,6 +99,8 @@ Toparymyz iň gysga wagtda size jogap berer.',
                         <strong>Biziň maksadymyz</strong> — syýaharçylary ýurdumyzyň baý taryhy we häzirki ösüşi bilen tanyşdyrmak, syýahatyň üsti bilen ylham bermekdir.S
                                                 <br/>
                         <strong>Kamil Syýahat</strong> — Türkmenistanyň ýüregine barýan ýoluňyzdaky ygtybarly ýoldaşyňyz!',
+                        
+    'outgoing_text' => '', ///this need
 
     'our_prides' => 'Milli däp-dessurlar we halkyň buýsanjy',
     'prides_subtitle' => 'Türkmenistanyň baý medeni mirasy bilen tanyşyň — halkymyzyň buýsanjy bolan gadymy däp-dessurlary, sungaty we nyşanlary.',

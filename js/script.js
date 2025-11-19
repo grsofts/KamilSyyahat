@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.cookie = `lang=${savedLang};path=/;max-age=${60*60*24*30}`;
     }
 
-    const langLinks = document.querySelectorAll('.dropdown-menu a');
+    const langLinks = document.querySelectorAll('.lang-change a');
 
     langLinks.forEach(link => {
         link.addEventListener('click', (e) => {

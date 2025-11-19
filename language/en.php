@@ -6,6 +6,7 @@ $lang = [
     'contacts' => 'Contacts',
     'feedback' => 'Feedback',
     'tours' => 'Tours',
+    'outgoing' => 'Outgoing',
     'prices' => 'Prices',
     'services' => 'Services',
     'language' => 'Language',
@@ -98,6 +99,8 @@ Our team will respond as soon as possible.',
                         <br/>
                         <strong>Our mission</strong> is to inspire people to explore Turkmenistan — its timeless heritage and modern transformation.
                         Because every journey with <strong>Kamil Syýahat</strong> is more than travel — it’s a heartfelt experience.',
+
+    'outgoing_text' => '',
 
 
     'our_prides' => 'Traditions and Pride of the Nation',

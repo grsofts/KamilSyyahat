@@ -8,6 +8,10 @@ $page = trim($page, '/');
 $file = "pages/{$page}.php";
 
 $l = $_GET['lang'] ?? $_COOKIE['lang'] ?? 'en';
+
+if (!in_array($l, ['en', 'ru', 'tm'])) {
+	$l = 'en';
+}
 require_once 'language/' . $l . '.php';
 
 if(!isset($_SESSION['ajax_token'])) {
@@ -21,9 +25,9 @@ $token = $_SESSION['ajax_token'];
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Kamil syýahat — Туристическая компания</title>
+	<title>Kämil syýahat — Туристическая компания</title>
     <meta name="description" content="Оформление виз, авиабилеты, бронирование отелей. Туркменистан. Пр. А. Ниязова.">
-    <meta property="og:title" content="Kamil syýahat — Туристическая компания">
+    <meta property="og:title" content="Kämil syýahat — Туристическая компания">
     <meta property="og:description" content="Оформление виз, авиабилеты, бронирование отелей">
 
 	<link rel="shortcut icon" type="image/png" href="assets/logoks.png">
