@@ -14,7 +14,7 @@ $lang = [
     'hotels' => 'Myhmanhanalar',
     'gallery' => 'Galareýa',
     'about_us_description' => 'Siziň Kämil Syýahatyňyz şu ýerde başlaýar! Biz diňe syýahatlary hödürlemek bilen çäklenmän, eýsem, unuldulmajak ýatlamalary döredýäris. Resminamalar, petekler we myhmanhanalar bilen baglanyşykly aladalary unudyp bilersiňiz. Diňe islegleriňizy aýdyp beriň, biz galan ähli zady öz üstümize alarys.',
-    'contact_us' => 'Biz bilen habarlaş',
+    'contact_us' => 'Biz bilen habarlaşyň',
     'contact_us_description' => 'Biz bilen habarlaşmak aňsat!
 Soraglaryňyz, teklipleriňiz ýa-da hyzmatdaşlyk pikiriňiz barmy?
 Biz size kömek etmäge taýýar.
