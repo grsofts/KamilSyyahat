@@ -539,6 +539,7 @@ const galleries = {
         {
             src: "images/upload/asgabat/5.jpg",
             caption: "",
+            position: 1,
         },
         {
             src: "images/upload/asgabat/6.jpg",
@@ -548,10 +549,7 @@ const galleries = {
             src: "images/upload/asgabat/7.jpg",
             caption: "",
         },
-        {
-            src: "images/slider1.jpg",
-            caption: "",
-        },
+        
     ],
 
     mary: [
@@ -749,6 +747,8 @@ const galleries = {
     ]
 };
 
+
+
 const fancyOptions = {
   Hash: false,
   backFocus: false,
@@ -761,11 +761,36 @@ const fancyOptions = {
   },
 };
 
+
+
+// Функция для сортировки галереи
+function sortGallery(galleryArray) {
+    return galleryArray.sort((a, b) => {
+        // Если у обоих есть position, сортируем по position
+        if (a.position !== undefined && b.position !== undefined) {
+            return a.position - b.position;
+        }
+        // Если только у a есть position, a идет первым
+        if (a.position !== undefined && b.position === undefined) {
+            return -1;
+        }
+        // Если только у b есть position, b идет первым
+        if (a.position === undefined && b.position !== undefined) {
+            return 1;
+        }
+        // Если у обоих нет position, сохраняем оригинальный порядок
+        return 0;
+    });
+}
+
 document.querySelectorAll("[data-gallery]").forEach((el) => {
   el.addEventListener("click", () => {
     const key = el.getAttribute("data-gallery");
     if (galleries[key]) {
-      Fancybox.show(galleries[key], fancyOptions);
+        // Сортируем галерею только если есть элементы с position
+        const hasPosition = galleries[key].some(item => item.position !== undefined);
+        const galleryToShow = hasPosition ? sortGallery([...galleries[key]]) : galleries[key];
+      Fancybox.show(galleryToShow, fancyOptions);
     } else {
       console.warn(`Галерея "${key}" не найдена`);
     }
