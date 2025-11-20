@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $mail->Host       = 'smtp.hostinger.com';
             $mail->SMTPAuth   = true;
             $mail->Username   = 'no-reply@kamilsyyahat.com'; // ваш Gmail
-            $mail->Password   = '9Cc?5xRb?'; // пароль приложения
+            $mail->Password   = '9Cc?5xRb?'; // пароль приложения  FeedbackKS2025#
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
             $mail->Port       = 465;
 

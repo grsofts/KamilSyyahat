@@ -69,7 +69,7 @@ include_once 'conf/constants.php';
 <!-- Staff end -->
 
 
-<div class="container">
+<div class="container" style="margin-bottom:70px">
     <div class="row">
         <div class="col-md-12 centered">
             <h3><span>TURKMENISTAN</span></h3>

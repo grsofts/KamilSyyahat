@@ -200,7 +200,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <a data-gallery="ahalteke" title="<?= $lang['pride_ahalteke'] ?>" style="cursor: pointer;"><img src="images/upload/prides/bedew1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_ahalteke'] ?>" /></a>
+            <a data-gallery="ahalteke" title="<?= $lang['pride_ahalteke'] ?>" style="cursor: pointer;"><img src="images/upload/prides/bedew3.jpg" height="285" style="object-fit: cover; width:100%" alt="<?= $lang['pride_ahalteke'] ?>" /></a>
             <div class="title">
                 <h5>
                     <span data-hover="<?= $lang['pride_ahalteke'] ?>"><?= $lang['pride_ahalteke'] ?></span>
@@ -208,7 +208,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <a  data-gallery="carpets" title="<?= $lang['pride_carpets'] ?>" style="cursor: pointer;"><img src="images/upload/prides/haly1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_carpets'] ?>" /></a>
+            <a  data-gallery="carpets" title="<?= $lang['pride_carpets'] ?>" style="cursor: pointer;"><img src="images/upload/prides/haly0.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_carpets'] ?>" /></a>
             <div class="title">
                 <h5>
                     <span data-hover="<?= $lang['pride_carpets'] ?>"><?= $lang['pride_carpets'] ?></span>
@@ -216,7 +216,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <a data-gallery="kitchen" title="<?= $lang['pride_kitchen'] ?>" style="cursor: pointer;"><img src="images/upload/prides/kitchen1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_kitchen'] ?>" /></a>
+            <a data-gallery="kitchen" title="<?= $lang['pride_kitchen'] ?>" style="cursor: pointer;"><img src="images/upload/prides/tagam0.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_kitchen'] ?>" /></a>
             <div class="title">
                 <h5>
                     <span data-hover="<?= $lang['pride_kitchen'] ?>"><?= $lang['pride_kitchen'] ?></span>
@@ -336,22 +336,18 @@ const galleries = {
         src: "images/upload/prides/alabay2.jpg",
         caption: "<?= $lang['pride_alabay_description'] ?>",
         },
-        {
-        src: "images/upload/prides/alabay3.jpg",
-        caption: "<?= $lang['pride_alabay_description'] ?>",
-        },
     ],
     ahalteke: [
+        {
+        src: "images/upload/prides/bedew3.jpg",
+        caption: "<?= $lang['pride_ahalteke_description'] ?>",
+        },
         {
         src: "images/upload/prides/bedew1.jpg",
         caption: "<?= $lang['pride_ahalteke_description'] ?>",
         },
         {
-        src: "images/upload/prides/bedew2.jpg",
-        caption: "<?= $lang['pride_ahalteke_description'] ?>",
-        },
-        {
-        src: "images/upload/prides/bedew3.jpg",
+        src: "images/upload/prides/ornament3.jpg",
         caption: "<?= $lang['pride_ahalteke_description'] ?>",
         },
         {
@@ -360,6 +356,10 @@ const galleries = {
         },
     ],
     carpets: [
+        {
+        src: "images/upload/prides/haly0.jpg",
+        caption: "<?= $lang['pride_carpets_description'] ?>",
+        },
         {
         src: "images/upload/prides/haly1.jpg",
         caption: "<?= $lang['pride_carpets_description'] ?>",
@@ -383,17 +383,54 @@ const galleries = {
     ],
     kitchen: [
         {
-        src: "images/upload/prides/kitchen1.jpg",
+        src: "images/upload/prides/tagam0.jpg",
         caption: "<?= $lang['pride_kitchen_description'] ?>",
         },
         {
-        src: "images/upload/prides/kitchen2.jpg",
+        src: "images/upload/prides/tagam1.jpg",
         caption: "<?= $lang['pride_kitchen_description'] ?>",
         },
         {
-        src: "images/upload/prides/kitchen3.webp",
+        src: "images/upload/prides/tagam2.jpg",
         caption: "<?= $lang['pride_kitchen_description'] ?>",
         },
+        {
+        src: "images/upload/prides/tagam3.jpg",
+        caption: "<?= $lang['pride_kitchen_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/tagam4.jpg",
+        caption: "<?= $lang['pride_kitchen_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/tagam5.jpg",
+        caption: "<?= $lang['pride_kitchen_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/tagam6.jpg",
+        caption: "<?= $lang['pride_kitchen_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/tagam7.jpg",
+        caption: "<?= $lang['pride_kitchen_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/tagam8.jpg",
+        caption: "<?= $lang['pride_kitchen_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/tagam9.jpg",
+        caption: "<?= $lang['pride_kitchen_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/tagam10.jpg",
+        caption: "<?= $lang['pride_kitchen_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/tagam11.jpg",
+        caption: "<?= $lang['pride_kitchen_description'] ?>",
+        }
+
     ],
     kushtdepdi: [
         {
@@ -420,6 +457,10 @@ const galleries = {
         },
         {
         src: "images/upload/prides/ornament4.jpg",
+        caption: "<?= $lang['pride_ornaments_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/ornament5.jpg",
         caption: "<?= $lang['pride_ornaments_description'] ?>",
         },
     ],
@@ -454,10 +495,6 @@ const galleries = {
         src: "images/upload/prides/closes2.jpg",
         caption: "<?= $lang['pride_closes_description'] ?>",
         },
-        {
-        src: "images/upload/prides/closes3.jpg",
-        caption: "<?= $lang['pride_closes_description'] ?>",
-        },
     ],
     festivals: [
         {
@@ -469,7 +506,11 @@ const galleries = {
         caption: "<?= $lang['pride_festivals_description'] ?>",
         },
         {
-        src: "images/upload/prides/bayram3.jpg",
+        src: "images/upload/prides/bayram4.jpg",
+        caption: "<?= $lang['pride_festivals_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/bayram5.jpg",
         caption: "<?= $lang['pride_festivals_description'] ?>",
         },
     ],
