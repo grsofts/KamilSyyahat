@@ -519,6 +519,7 @@ const galleries = {
         {
             src: "images/upload/asgabat/1.jpg",
             caption: "National museum",
+            position: 4
         },
         {
             src: "images/upload/asgabat/2.jpg",
@@ -527,12 +528,12 @@ const galleries = {
         },
         {
             src: "images/upload/gypjak.jpg",
-            caption: "Turkmenbashy Ruhy Mosque",
-            position: 3
+            caption: "Turkmenbashy Rukhi Mosque",
         },
         {
             src: "images/upload/asgabat/3.jpg",
             caption: "Bagt koshgi",
+            position:5
         },
         {
             src: "images/upload/asgabat/5.jpg",
@@ -542,7 +543,36 @@ const galleries = {
         {
             src: "images/upload/asgabat/6.jpg",
             caption: "Neutrality monument",
+            position: 3
         },
+        {
+            src: "images/upload/asgabat/7.jpg",
+            caption: "Turkmenbashi Rukhi mosque",
+        },
+        {
+            src: "images/upload/asgabat/8.jpg",
+            caption: "Turkmenbashi Rukhi mosque",
+        },
+        {
+            src: "images/upload/asgabat/9.jpg",
+            caption: "Turkmenbashi Rukhi mosque",
+        },
+        {
+            src: "images/upload/asgabat/10.jpg",
+            caption: "Turkmenbashi Rukhi mosque",
+        },
+        {
+            src: "images/upload/asgabat/11.jpg",
+            caption: "Turkmenbashi Rukhi mosque",
+        },
+        {
+            src: "images/upload/asgabat/12.jpg",
+            caption: "Ashgabat",
+        },
+        {
+            src: "images/upload/asgabat/13.webp",
+            caption: "Ashgabat International Airport",
+        }
         
     ],
 
@@ -600,14 +630,131 @@ const galleries = {
     balkan:[
         {
             src: "images/upload/balkan/1.jpg",
-            caption: ""
+            caption: "Yangi-kala"
+        },
+        {
+            src: "images/upload/balkan/2.jpg",
+            caption: "Yangi-kala"
+        },
+        {
+            src: "images/upload/balkan/3.jpg",
+            caption: "Yangi-kala"
+        },
+        {
+            src: "images/upload/balkan/4.jpg",
+            caption: "Yangi-kala"
+        },
+        {
+            src: "images/upload/balkan/5.jpg",
+            caption: "Yangi-kala"
+        },
+        {
+            src: "images/upload/balkan/6.webp",
+            caption: "Church of St. Michael the Archangel"
         }
     ],
     ahal: [
         {
-            src: "images/upload/ahal/1.webp",
-            caption: "Nohur"
-        }
+            src: "images/upload/ahal/1-akhalteke horse.jpg",
+            caption: "Akhalteke horse",
+        },
+        {
+            src: "images/upload/ahal/2-Nisa.png",
+            caption: "Nisa is an ancient city inscribed on the UNESCO World Heritage List, the capital of the great Parthian Empire (III BC – III AD)"
+        },
+        {
+            src: "images/upload/ahal/3-nisa.jpg",
+            caption: "Nisa is an ancient city inscribed on the UNESCO World Heritage List, the capital of the great Parthian Empire (III BC – III AD)",
+        },
+        {
+            src: "images/upload/ahal/4.jpg",
+            caption: "Nisa is an ancient city inscribed on the UNESCO World Heritage List, the capital of the great Parthian Empire (III BC – III AD)",
+        },
+        {
+            src: "images/upload/ahal/5.jpg",
+            caption: "Nisa is an ancient city inscribed on the UNESCO World Heritage List, the capital of the great Parthian Empire (III BC – III AD)",
+        },
+        {
+            src: "images/upload/ahal/6.jpg",
+            caption: "Nisa is an ancient city inscribed on the UNESCO World Heritage List, the capital of the great Parthian Empire (III BC – III AD)",
+        },
+        {
+            src : "images/upload/ahal/7.jpg",
+            caption: "Nisa is an ancient city inscribed on the UNESCO World Heritage List, the capital of the great Parthian Empire (III BC – III AD)",
+        },
+        {
+            src: "images/upload/ahal/8.jpg",
+            caption: "Kow-Ata is an underground lake with thermal water. The water temperature is constant at 33-38 °C all year.",
+        },
+        {
+            src: "images/upload/ahal/9.webp",
+            caption: "Kow-Ata is an underground lake with thermal water. The water temperature is constant at 33-38 °C all year.",
+        },
+        {
+            src: "images/upload/ahal/10.jpg",
+            caption: "Kow-Ata is an underground lake with thermal water. The water temperature is constant at 33-38 °C all year.",
+        },
+        {
+            src: "images/upload/ahal/11.jpg",
+            caption: "Seyit Jemaletdin Mosquebuilt in 1456 which was damaged to great lengths in the 1948 Earthquake",
+        },
+        {
+            src: "images/upload/ahal/12.jpg",
+            caption: "Seyit Jemaletdin Mosquebuilt in 1456 which was damaged to great lengths in the 1948 Earthquake",
+        },
+        {
+            src: "images/upload/ahal/13.jpg",
+            caption: "Seyit Jemaletdin Mosquebuilt in 1456 which was damaged to great lengths in the 1948 Earthquake",
+        },
+        {
+            src: "images/upload/ahal/14.jpg",
+            caption: "Seyit Jemaletdin Mosquebuilt in 1456 which was damaged to great lengths in the 1948 Earthquake",
+        },
+        {
+            src: "images/upload/ahal/15.jpg",
+            caption: "Kopetdag Mountains ",
+        },
+        {
+            src: "images/upload/ahal/16.jpg",
+            caption: "Kopetdag Mountains ",
+        },
+        {
+            src: "images/upload/ahal/17.jpg",
+            caption: "Kopetdag Mountains ",
+        },
+        {
+            src: "images/upload/ahal/18.jpg",
+            caption: "Kopetdag Mountains ",
+        },
+        {
+            src: "images/upload/ahal/19.jpg",
+            caption: "Kopetdag Mountains ",
+        },
+        {
+            src: "images/upload/ahal/20.jpg",
+            caption: "Kopetdag Mountains ",
+        },
+        {
+            src: "images/upload/ahal/21.jpg",
+            caption: "Kopetdag Mountains ",
+        },
+        {
+            src: "images/upload/ahal/22.jpg",
+            caption: "Kopetdag Mountains ",
+        },
+        {
+            src: "images/upload/ahal/23.jpg",
+            caption: "Kopetdag Mountains ",
+        },
+        {
+            src: "images/upload/ahal/24.jpg",
+            caption: "Kopetdag Mountains ",
+        },
+        {
+            src: "images/upload/ahal/25.jpg",
+            caption: "Kopetdag Mountains ",
+        },
+
     ],
     dasoguz: [
         {
