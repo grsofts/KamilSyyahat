@@ -101,6 +101,28 @@ Our team will respond as soon as possible.',
                         Because every journey with <strong>Kamil Syýahat</strong> is more than travel — it’s a heartfelt experience.',
 
     'outgoing_text' => '',
+    'about_turkmenistan' => 'Turkmenistan is a country in Central Asia, washed by the waters
+                        of the Caspian Sea in the west and the Amu Darya River in the
+                        east. It borders Kazakhstan and Uzbekistan to the north, and
+                        Afghanistan and Iran to the south. A significant part of the
+                        country is occupied by the Karakum Desert. Here are located the
+                        ruins of the ancient settlements of Nisa and Merv, and Kunya-
+                        Urgench – UNESCO World Heritage Sites through which the
+                        Great Silk Road once passed.
+                        Ashgabat, the capital of Turkmenistan, is a white-marble city
+                        that entered the Guinness World Records as the city with the
+                        highest density of white-marble buildings in the world. The
+                        beauties of Turkmenistan are a combination of unique natural
+                        sites such as the Darvaza gas crater and the Yangykala Canyon,
+                        ancient historical monuments, endless desert, and mountains.
+                        In 2025, December 12 will be grandly celebrated as the 30th
+                        anniversary of Turkmenistan’s Neutrality. It was on December
+                        12, 1995, that the United Nations recognized the “Permanent
+                        Neutrality of Turkmenistan.” Under the wise leadership of the
+                        Turkmen National Leader the deeply respected Gurbanguly
+                        Berdimuhamedov, the neutrality status was confirmed by the
+                        UN for the second time on June 3, 2015, and for the third time
+                        on March 21, 2025.',
 
 
     'our_prides' => 'Traditions and Pride of the Nation',

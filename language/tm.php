@@ -101,6 +101,27 @@ Toparymyz iň gysga wagtda size jogap berer.',
                         <strong>Kamil Syýahat</strong> — Türkmenistanyň ýüregine barýan ýoluňyzdaky ygtybarly ýoldaşyňyz!',
                         
     'outgoing_text' => '', ///this need
+    'about_turkmenistan' => 'Türkmenistan – Merkezi Aziýada ýerleşýän ýurt bolup, günbatar
+                        tarapynda Hazar deňzi, gündogar tarapynda Amyderýa derýasy
+                        bilen ýuwulýar; demirgazykda Gazagystan we Özbegistan,
+                        günortada Owganystan we Eýran bilen serhetleşýär.
+                        Ýurduň köp bölegini tükeniksiz Garagum çöli tutýar. Beýik
+                        ýüpek ýolunyň ugrunda ýerleşýän Nusaý, Merw we Köneürgenç
+                        ýaly gadymy şäherleriň ÝUNESKO-nyň Bütindunýä sanawyna
+                        giren zolaklary ýerleşýär. Aşgabat Türkmenistanyň paýtagty, ak
+                        mermerli şäherleriň sany boýunça Ginnesiň rekordlar kitabyna
+                        giren şäher. Türkmenistan özünde Derweze gaz krateri we
+                        Ýaňňygala kanýonlary ýaly üýtgeşik özboluşly tebigy
+                        gözellikleri, gadymy taryhy ýadygärlikleri, tükeniksiz çöllerdir
+                        daglery serhetinde jemleýär.
+                        2025-nji ýylyň 12-nji dekabrynda Türkmenistanyň
+                        Bitaraplygynyň 30 ýyllygy uly dabara bilen belleniler.
+                        1995-nji ýylyň 12-nji dekabrynda BMG «Türkmenistanyň
+                        Hemişelik Bitaraplygyny» ykrar etdi.Türkmen Halkynyň çuňňur
+                        Hormatlanýan Milli Lideri Gurbanguly Berdimuhamedowyň
+                        parasatly ýolbaşçylygynda Bitaraplyk statusy BMG tarapyndan
+                        ikinji gezek 2015-nji ýylyň 3-nji iýunynda, üçünji gezek bolsa,
+                        2025-nji ýylyň 21-nji martynda tassyklanyldy.',
 
     'our_prides' => 'Milli däp-dessurlar we halkyň buýsanjy',
     'prides_subtitle' => 'Türkmenistanyň baý medeni mirasy bilen tanyşyň — halkymyzyň buýsanjy bolan gadymy däp-dessurlary, sungaty we nyşanlary.',

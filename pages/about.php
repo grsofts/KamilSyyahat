@@ -73,7 +73,7 @@ include_once 'conf/constants.php';
     <div class="row">
         <div class="col-md-12 centered">
             <h3><span>TURKMENISTAN</span></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis ipsa, perferendis dicta aliquid mollitia veniam porro iure dolores voluptatum? Inventore deleniti, accusantium aliquid aut id at reprehenderit ipsa possimus excepturi.</p>
+            <p><?= $lang['about_turkmenistan'] ?></p>
         </div>
     </div>
 </div>

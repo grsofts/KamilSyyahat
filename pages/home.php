@@ -518,36 +518,30 @@ const galleries = {
     asgabat: [
         {
             src: "images/upload/asgabat/1.jpg",
-            caption: "",
+            caption: "National museum",
         },
         {
             src: "images/upload/asgabat/2.jpg",
-            caption: "",
+            caption: "Ashgabat monument",
+            position: 2,
         },
         {
             src: "images/upload/gypjak.jpg",
-            caption: "",
+            caption: "Turkmenbashy Ruhy Mosque",
+            position: 3
         },
         {
             src: "images/upload/asgabat/3.jpg",
-            caption: "",
-        },
-        {
-            src: "images/upload/asgabat/4.jpg",
-            caption: "",
+            caption: "Bagt koshgi",
         },
         {
             src: "images/upload/asgabat/5.jpg",
-            caption: "",
+            caption: "Bagt koshgi",
             position: 1,
         },
         {
             src: "images/upload/asgabat/6.jpg",
-            caption: "",
-        },
-        {
-            src: "images/upload/asgabat/7.jpg",
-            caption: "",
+            caption: "Neutrality monument",
         },
         
     ],
@@ -558,12 +552,8 @@ const galleries = {
             caption: "",
         },
         {
-            src: "images/upload/mary/2.jpg",
-            caption: "",
-        },
-        {
             src: "images/upload/mary/3.jpg",
-            caption: "",
+            caption: "Small Gyz-Gala",
         },
         {
             src: "images/upload/mary/4.jpg",
@@ -574,39 +564,22 @@ const galleries = {
             caption: "",
         },
         {
-            src: "images/upload/mary/6.jpg",
-            caption: "",
-        },
-        {
             src: "images/upload/mary/7.jpg",
-            caption: "",
-        },
-        {
-            src: "images/upload/mary/8.jpg",
-            caption: "",
-        },
-        {
-            src: "images/upload/mary/9.jpg",
-            caption: "",
-        },
-        {
-            src: "images/upload/mary/10.jpg",
-            caption: "",
+            caption: "Soltan Sanjar",
+            position: 3
         },
         {
             src: "images/upload/mary/11.jpg",
-            caption: "",
+            caption: "Soltan Sanjar",
+            position: 1
         },
         {
             src: "images/upload/mary/12.jpg",
-            caption: "",
+            caption: "Soltan Sanjar",
+            position: 2
         },
         {
             src: "images/upload/mary/13.jpg",
-            caption: "",
-        },
-        {
-            src: "images/upload/mary/14.jpg",
             caption: "",
         },
         {
@@ -615,16 +588,13 @@ const galleries = {
         },
         {
             src: "images/upload/mary/16.jpg",
-            caption: "",
+            caption: "Gyz-Gala",
+            position: 4
         },
         {
             src: "images/upload/mary/17.jpg",
             caption: "",
         },
-        {
-            src: "images/upload/mary/18.jpg",
-            caption: "",
-        }
 
     ],
     balkan:[
@@ -684,14 +654,7 @@ const galleries = {
             src: "images/upload/dasoguz/11.jpg",
             caption: "",
         },
-        {
-            src: "images/upload/dasoguz/12.jpg",
-            caption: "",
-        },
-        {
-            src: "images/upload/dasoguz/13.jpg",
-            caption: "",
-        },
+        
         {
             src: "images/upload/dasoguz/14.jpg",
             caption: "",
@@ -746,6 +709,8 @@ const galleries = {
         }
     ]
 };
+
+
 
 
 
