@@ -758,40 +758,40 @@ const galleries = {
     ],
     dasoguz: [
         {
-            src: "images/upload/dasoguz/1.jpg",
-            caption: "",
+            src: "images/upload/dasoguz/1.jpeg",
+            caption: "Dashoguz city",
         },
         {
             src: "images/upload/dasoguz/2.jpg",
-            caption: "",
+            caption: "Dashoguz hotel",
         },
         {
             src: "images/upload/dasoguz/3.jpg",
-            caption: "",
+            caption: "Konye-Urgench  (11th to the 16th centuries) in 2005 were inscribed on the UNESCO List of World Heritage Sites",
         },
         {
             src: "images/upload/dasoguz/4.jpg",
-            caption: "",
+            caption: "Konye-Urgench  (11th to the 16th centuries) in 2005 were inscribed on the UNESCO List of World Heritage Sites",
         },
         {
             src: "images/upload/dasoguz/5.jpg",
-            caption: "",
+            caption: "Konye-Urgench  (11th to the 16th centuries) in 2005 were inscribed on the UNESCO List of World Heritage Sites",
         },
         {
             src: "images/upload/dasoguz/6.jpg",
-            caption: "",
+            caption: "Konye-Urgench  (11th to the 16th centuries) in 2005 were inscribed on the UNESCO List of World Heritage Sites",
         },
         {
             src: "images/upload/dasoguz/7.jpg",
-            caption: "",
+            caption: "Konye-Urgench  (11th to the 16th centuries) in 2005 were inscribed on the UNESCO List of World Heritage Sites",
         },
         {
             src: "images/upload/dasoguz/8.jpg",
-            caption: "",
+            caption: "Konye-Urgench  (11th to the 16th centuries) in 2005 were inscribed on the UNESCO List of World Heritage Sites",
         },
         {
             src: "images/upload/dasoguz/9.jpg",
-            caption: "",
+            caption: "Konye-Urgench  (11th to the 16th centuries) in 2005 were inscribed on the UNESCO List of World Heritage Sites",
         },
         {
             src: "images/upload/dasoguz/10.jpg",
@@ -799,6 +799,14 @@ const galleries = {
         },
         {
             src: "images/upload/dasoguz/11.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/12.jpg",
+            caption: "",
+        },
+        {
+            src: "images/upload/dasoguz/13.jpg",
             caption: "",
         },
         
@@ -839,20 +847,115 @@ const galleries = {
             caption: "",
         },
         {
-            src: "images/upload/dasoguz/23.jpg",
-            caption: "",
-        },
-        {
-            src: "images/upload/dasoguz/24.jpg",
-            caption: "",
-        },
-        {
             src: "images/upload/koneurgench.jpg",
-            caption: "",
+            caption: "Konye-Urgench  (11th to the 16th centuries) in 2005 were inscribed on the UNESCO List of World Heritage Sites",
         },
         {
             src: "images/upload/dasoguz/25.webp",
-            caption: "",
+            caption: "Darvaza gas crater",
+        }
+    ],
+     lebap: [
+        {
+            src: "images/upload/lebap/1.jpg",
+            caption: "Koytendag Mountains",
+        },
+        {
+            src: "images/upload/lebap/2.jpg",
+            caption: "Koytendag Mountains",
+        },
+        {
+            src: "images/upload/lebap/3.jpg",
+            caption: "Koytendag Mountains",
+        },
+        {
+            src: "images/upload/lebap/4.jpg",
+            caption: "Koytendag Mountains",
+        },
+        {
+            src: "images/upload/lebap/5.jpg",
+            caption: "Koytendag Mountains",
+        },
+        {
+            src: "images/upload/lebap/6.jpg",
+            caption: "Koytendag Mountains",
+        },
+        {
+            src: "images/upload/lebap/7.jpg",
+            caption: "Waterfall in Koytendag",
+        },
+        {
+            src: "images/upload/lebap/8.jpg",
+            caption: "Waterfall in Koytendag",
+        },
+        {
+            src: "images/upload/lebap/9.jpg",
+            caption: "Koytendag Mountains",
+        },
+        {
+            src: "images/upload/lebap/10.jpg",
+            caption: "Koytendag Mountains",
+        },
+        {
+            src: "images/upload/lebap/11.jpg",
+            caption: "Koytendag Mountains",
+        },
+        {
+            src: "images/upload/lebap/12.jpg",
+            caption: "Koytendag Mountains",
+        },
+        {
+            src: "images/upload/lebap/13.jpg",
+            caption: "Koytendag Mountains",
+        },
+        {
+            src: "images/upload/lebap/14.jpg",
+            caption: "Koytendag Mountains",
+        },
+        {
+            src: "images/upload/lebap/15.jpg",
+            caption: "Plaza of dinosaurs-steps of dinosaurs",
+        },
+        {
+            src: "images/upload/lebap/16.jpg",
+            caption: "Plaza of dinosaurs-steps of dinosaurs",
+
+        },
+        {
+            src: "images/upload/lebap/17.jpg",
+            caption: "Plaza of dinosaurs-steps of dinosaurs",
+        },
+        {
+            src: "images/upload/lebap/18.jpg",
+            caption: "Plaza of dinosaurs-steps of dinosaurs",
+        },
+        {
+            src: "images/upload/lebap/19.jpg",
+            caption: "Plaza of dinosaurs-steps of dinosaurs",
+        },
+        {
+            src: "images/upload/lebap/20.jpg",
+            caption: "Hojababa (gaynarbaba) lake",
+        },
+        {
+            src: "images/upload/lebap/21.jpg",
+            caption: "Daya Hatyn сaravansarai",
+        },
+        {
+            src: "images/upload/lebap/22.jpg",
+            caption: "Daya Hatyn сaravansarai",
+        },
+        {
+            src: "images/upload/lebap/23.jpg",
+            caption: "Daya Hatyn сaravansarai",
+        },
+        {
+            src: "images/upload/lebap/24.jpg",
+            caption: "Amul cave",
+        },
+        {
+            src: "images/upload/lebap/25.jpg",
+            caption: "Amudarya bridge",
         }
     ]
 };
