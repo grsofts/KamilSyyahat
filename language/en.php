@@ -68,7 +68,7 @@ Our team will respond as soon as possible.',
     //services
     'ashgabat' => 'Ashgabat: The White Marble City',
     'ashgabat_description' => 'The capital <strong>Ashgabat</strong> is Guinness World Record for the highest density of white-marble clad buildings',
-    'akhal' => 'Akhal- monument of the path',
+    'akhal' => 'Akhal: monument of the path',
     'akhal_description' => 'Akhal includes ancient archaeological sites',
     'balkan' => 'Balkan: The Mysterious West',
     'balkan_description' => 'The region is famous for its colorful landscapes between canyons and seas of the endless Karakum Desert.',

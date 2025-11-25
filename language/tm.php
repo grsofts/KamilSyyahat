@@ -69,7 +69,7 @@ Toparymyz iň gysga wagtda size jogap berer.',
     //services
     'ashgabat' => 'Aşgabat: Ak mermeriň şäheri',
     'ashgabat_description' => 'Paýtagt <strong>Aşgabat</strong> Ak mermerli binalaryň iň ýokary sany boýunça Guinnessiň dünýä rekordlar kitabyna girizilen şäher.',
-    'akhal' => 'Ahal- geçmişiň ýadygärligi',
+    'akhal' => 'Ahal: geçmişiň ýadygärligi',
     'akhal_description' => 'Ahal gadymy arheologik ýerlerini öz içine alýar.',
     'balkan' => 'Balkan: Günbataryň Syrly Daglary',
     'balkan_description' => 'Daglardyr, çölleriniň, deňizdir, kanýonlaryň arasyndaky meşhur jadyly tebigat.',

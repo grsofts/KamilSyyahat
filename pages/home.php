@@ -56,7 +56,7 @@
         <div class="col-md-4 col3">
             <a  data-gallery="asgabat" title="<?= $lang['ashgabat'] ?>" class="roundal" id="kennel"></a>
             <h3><?= $lang['ashgabat'] ?></h3>
-            <p class="truncate-2"><?= $lang['ashgabat_description'] ?></p>
+            <!-- <p class="truncate-2"><?= $lang['ashgabat_description'] ?></p> -->
             <!-- <form method="get" action="services-single.html">
                 <button type="submit" class="btn btn-default btn-green"><?= $lang['learn_more'] ?></button>
             </form> -->
@@ -64,7 +64,7 @@
         <div class="col-md-4 col3">
             <a data-gallery="ahal" title="<?= $lang['akhal'] ?>" class="roundal" id="grooming"></a>
             <h3><?= $lang['akhal'] ?></h3>
-            <p class="truncate-2"><?= $lang['akhal_description'] ?></p>
+            <!-- <p class="truncate-2"><?= $lang['akhal_description'] ?></p> -->
             <!-- <form method="get" action="services-single.html">
                 <button type="submit" class="btn btn-default btn-green"><?= $lang['learn_more'] ?></button>
             </form> -->
@@ -72,7 +72,7 @@
         <div class="col-md-4 col3">
             <a data-gallery="balkan" title="<?= $lang['balkan'] ?>" class="roundal" id="adoption"></a>
             <h3><?= $lang['balkan'] ?></h3>
-            <p class="truncate-2"><?= $lang['balkan_description'] ?></p>
+            <!-- <p class="truncate-2"><?= $lang['balkan_description'] ?></p> -->
              <!-- <form method="get" action="services-single.html">
                 <button type="submit" class="btn btn-default btn-green"><?= $lang['learn_more'] ?></button>
             </form> -->
@@ -80,7 +80,7 @@
         <div class="col-md-4 col3">
             <a data-gallery="dasoguz" title="<?= $lang['dashoguz'] ?>" class="roundal" id="walking"></a>
             <h3><?= $lang['dashoguz'] ?></h3>
-            <p class="truncate-2"><?= $lang['dashoguz_description'] ?></p>
+            <!-- <p class="truncate-2"><?= $lang['dashoguz_description'] ?></p> -->
              <!-- <form method="get" action="services-single.html">
                 <button type="submit" class="btn btn-default btn-green"><?= $lang['learn_more'] ?></button>
             </form> -->
@@ -88,12 +88,12 @@
         <div class="col-md-4 col3">
             <a data-gallery="mary" title="<?= $lang['mary'] ?>" class="roundal" id="advice"></a>
             <h3><?= $lang['mary'] ?></h3>
-            <p class="truncate-2"><?= $lang['mary_description'] ?></p>
+            <!-- <p class="truncate-2"><?= $lang['mary_description'] ?></p> -->
         </div>
         <div class="col-md-4 col3">
-            <a title="<?= $lang['lebap'] ?>" class="roundal" id="play"></a>
+            <a  data-gallery="lebap" title="<?= $lang['lebap'] ?>" class="roundal" id="play"></a>
             <h3><?= $lang['lebap'] ?></h3>
-            <p class="truncate-2"><?= $lang['lebap_description'] ?></p>
+            <!-- <p class="truncate-2"><?= $lang['lebap_description'] ?></p> -->
              <!-- <form method="get" action="services-single.html">
                 <button type="submit" class="btn btn-default btn-green"><?= $lang['learn_more'] ?></button>
             </form> -->
@@ -519,6 +519,11 @@ const galleries = {
         {
             src: "images/upload/asgabat/1.jpg",
             caption: "National museum",
+            position: 5
+        },
+        {
+            src: "images/upload/asgabat/4.jpg",
+            caption: "Arch of Neutrality",
             position: 4
         },
         {
@@ -533,7 +538,7 @@ const galleries = {
         {
             src: "images/upload/asgabat/3.jpg",
             caption: "Bagt koshgi",
-            position:5
+            position:6
         },
         {
             src: "images/upload/asgabat/5.jpg",
@@ -542,12 +547,8 @@ const galleries = {
         },
         {
             src: "images/upload/asgabat/6.jpg",
-            caption: "Neutrality monument",
+            caption: "Monument of Independence",
             position: 3
-        },
-        {
-            src: "images/upload/asgabat/7.jpg",
-            caption: "Turkmenbashi Rukhi mosque",
         },
         {
             src: "images/upload/asgabat/8.jpg",
@@ -755,44 +756,6 @@ const galleries = {
             caption: "Kopetdag Mountains ",
         },
 
-    ],
-    dasoguz: [
-        {
-            src: "images/upload/dasoguz/1.jpeg",
-            caption: "Dashoguz city",
-        },
-        {
-            src: "images/upload/dasoguz/2.jpg",
-            caption: "Dashoguz hotel",
-        },
-        {
-            src: "images/upload/dasoguz/3.jpg",
-            caption: "Konye-Urgench  (11th to the 16th centuries) in 2005 were inscribed on the UNESCO List of World Heritage Sites",
-        },
-        {
-            src: "images/upload/dasoguz/4.jpg",
-            caption: "Konye-Urgench  (11th to the 16th centuries) in 2005 were inscribed on the UNESCO List of World Heritage Sites",
-        },
-        {
-            src: "images/upload/dasoguz/5.jpg",
-            caption: "Konye-Urgench  (11th to the 16th centuries) in 2005 were inscribed on the UNESCO List of World Heritage Sites",
-        },
-        {
-            src: "images/upload/dasoguz/6.jpg",
-            caption: "Konye-Urgench  (11th to the 16th centuries) in 2005 were inscribed on the UNESCO List of World Heritage Sites",
-        },
-        {
-            src: "images/upload/dasoguz/7.jpg",
-            caption: "Konye-Urgench  (11th to the 16th centuries) in 2005 were inscribed on the UNESCO List of World Heritage Sites",
-        },
-        {
-            src: "images/upload/dasoguz/8.jpg",
-            caption: "Konye-Urgench  (11th to the 16th centuries) in 2005 were inscribed on the UNESCO List of World Heritage Sites",
-        },
-        {
-            src: "images/upload/dasoguz/9.jpg",
-            caption: "Konye-Urgench  (11th to the 16th centuries) in 2005 were inscribed on the UNESCO List of World Heritage Sites",
-        },
         {
             src: "images/upload/dasoguz/10.jpg",
             caption: "",
@@ -847,6 +810,49 @@ const galleries = {
             caption: "",
         },
         {
+            src: "images/upload/derweze_full.jpg",
+            caption: "Derweze gas crater"
+        }
+    ],
+    dasoguz: [
+        {
+            src: "images/upload/dasoguz/1.jpeg",
+            caption: "Dashoguz city",
+        },
+        {
+            src: "images/upload/dasoguz/2.jpg",
+            caption: "Dashoguz hotel",
+        },
+        {
+            src: "images/upload/dasoguz/3.jpg",
+            caption: "Konye-Urgench  (11th to the 16th centuries) in 2005 were inscribed on the UNESCO List of World Heritage Sites",
+        },
+        {
+            src: "images/upload/dasoguz/4.jpg",
+            caption: "Konye-Urgench  (11th to the 16th centuries) in 2005 were inscribed on the UNESCO List of World Heritage Sites",
+        },
+        {
+            src: "images/upload/dasoguz/5.jpg",
+            caption: "Konye-Urgench  (11th to the 16th centuries) in 2005 were inscribed on the UNESCO List of World Heritage Sites",
+        },
+        {
+            src: "images/upload/dasoguz/6.jpg",
+            caption: "Konye-Urgench  (11th to the 16th centuries) in 2005 were inscribed on the UNESCO List of World Heritage Sites",
+        },
+        {
+            src: "images/upload/dasoguz/7.jpg",
+            caption: "Konye-Urgench  (11th to the 16th centuries) in 2005 were inscribed on the UNESCO List of World Heritage Sites",
+        },
+        {
+            src: "images/upload/dasoguz/8.jpg",
+            caption: "Konye-Urgench  (11th to the 16th centuries) in 2005 were inscribed on the UNESCO List of World Heritage Sites",
+        },
+        {
+            src: "images/upload/dasoguz/9.jpg",
+            caption: "Konye-Urgench  (11th to the 16th centuries) in 2005 were inscribed on the UNESCO List of World Heritage Sites",
+        },
+        
+        {
             src: "images/upload/koneurgench.jpg",
             caption: "Konye-Urgench  (11th to the 16th centuries) in 2005 were inscribed on the UNESCO List of World Heritage Sites",
         },
@@ -855,8 +861,8 @@ const galleries = {
             caption: "Darvaza gas crater",
         }
     ],
-     lebap: [
-        {
+    lebap: [
+       {
             src: "images/upload/lebap/1.jpg",
             caption: "Koytendag Mountains",
         },
@@ -930,7 +936,7 @@ const galleries = {
             caption: "Plaza of dinosaurs-steps of dinosaurs",
         },
         {
-            src: "images/upload/lebap/19.jpg",
+            src: "images/upload/lebap/19.png",
             caption: "Plaza of dinosaurs-steps of dinosaurs",
         },
         {
