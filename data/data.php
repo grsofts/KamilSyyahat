@@ -33,7 +33,7 @@ function GetTourImagesBySlug($slug){
     global $pdo;
     global $l;
 
-    $sql = "SELECT i.id, i.path FROM tour_images i inner join tours t on t.id = i.tour_id WHERE t.slug = :slug";
+    $sql = "SELECT i.id, i.path FROM tour_images i inner join tours t on t.id = i.tour_id WHERE t.slug = :slug order by i.position";
 
     $stmt = $pdo->prepare($sql);
     $stmt->execute(['slug' => $slug]);
