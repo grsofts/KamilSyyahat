@@ -192,7 +192,7 @@
     </div>
     <div class="row adoption">
         <div class="col-md-4">
-            <a data-gallery="alabay" title="<?= $lang['pride_alabay'] ?>" style="cursor: pointer;"><img src="images/upload/prides/alabay1.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_alabay'] ?>" /></a>
+            <a data-gallery="alabay" title="<?= $lang['pride_alabay'] ?>" style="cursor: pointer;"><img src="images/upload/prides/alabay2.jpg" height="285" style="object-fit: cover;" alt="<?= $lang['pride_alabay'] ?>" /></a>
             <div class="title">
                 <h5>
                     <span data-hover="<?= $lang['pride_alabay'] ?>"><?= $lang['pride_alabay'] ?></span>
@@ -329,11 +329,27 @@ document.addEventListener("DOMContentLoaded", function() {
 const galleries = {
     alabay: [
         {
+            src: "images/upload/prides/alabay0.jpg",
+            caption: "<?= $lang['pride_alabay_description'] ?>",
+        },
+        {
         src: "images/upload/prides/alabay1.jpg",
         caption: "<?= $lang['pride_alabay_description'] ?>",
         },
         {
         src: "images/upload/prides/alabay2.jpg",
+        caption: "<?= $lang['pride_alabay_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/alabay3.jpg",
+        caption: "<?= $lang['pride_alabay_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/alabay4.jpg",
+        caption: "<?= $lang['pride_alabay_description'] ?>",
+        },
+        {
+        src: "images/upload/prides/alabay5.jpg",
         caption: "<?= $lang['pride_alabay_description'] ?>",
         },
     ],
