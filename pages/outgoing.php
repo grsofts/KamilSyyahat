@@ -12,7 +12,7 @@ include_once 'conf/constants.php';
             
             <!-- <p style="margin-top:50px"><?= $lang['outgoing_text'] ?></p> -->
             <p style="margin-top:50px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex commodi odit voluptate. Repellendus neque alias eveniet inventore molestiae cumque, exercitationem aspernatur modi sequi. Voluptatem magnam vero maxime quia veritatis iure?</p>
-            
+            <a type="link" href="/anketa" target="_blank" class="btn btn-default btn-green"  id="submitBtn"><?= $lang['anketa'] ?></a>
         </div>
     </div>
 </div>

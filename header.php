@@ -29,6 +29,9 @@
                         <li>
                             <a href="outgoing"  class="<?= $page === 'outgoing' ? 'active' : '' ?>" title="Outgoing"><?= $lang['outgoing'] ?></a>
                         </li>
+                        <li>
+                            <a href="anketa"  class="" title="Anketa" target="_blank"><?= $lang['anketa'] ?> (Google Forms)</a>
+                        </li>
                     </ul>
                 </li>
                 <li class="<?= $page === 'gallery' ? 'active' : '' ?>">

@@ -7,6 +7,7 @@ $lang = [
     'feedback' => 'Feedback',
     'tours' => 'Tours',
     'outgoing' => 'Travel',
+    'anketa' => 'Fill out the form',
     'prices' => 'Prices',
     'services' => 'Services',
     'language' => 'Language',

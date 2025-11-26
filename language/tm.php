@@ -7,6 +7,7 @@ $lang = [
     'feedback' => 'Jan galdyrmak',
     'tours' => 'Syýahatlar',
     'outgoing' => 'Syýahat',
+    'anketa' => 'Anketa doldurmak',
     'prices' => 'Bahalar',
     'services' => 'Hyzmatlar',
     'language' => 'Dil',

@@ -1,7 +1,11 @@
-# Включаем переопределение URL
 RewriteEngine On
+RewriteBase /
+
+# Редирект со старого URL анкеты на Google Forms (тестовый 302)
+RewriteRule ^anketa/?$ https://forms.gle/4TNaJukRR4UVfWQc9 [R=302,L,NC]
 
 # Убираем index.php из URL (чистые ссылки)
+# (это правило должно быть после конкретных редиректов)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php?page=$1 [L,QSA]
